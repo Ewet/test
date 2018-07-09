@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>腾讯地图</title>
+		<style>
+			
+		</style>
+<!--地图api-->
+	<script charset="utf-8" src="http://map.qq.com/api/js?v=2.exp&key=TP5BZ-HCCWQ-VRR5O-GWQJF-PPKPZ-GWF57&libraries=place"></script>
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js" ></script>
+	</head>
+	<body>
+
+		<div id="geoPage">
+			<input type="search" id="place" autofocus="autofocus"/>
+		</div>
+		
+		<script type="text/javascript">
+//			//为防止定位组件在message事件监听前已经触发定位成功事件，在此处显示请求一次位置信息
+			//document.getElementById("geoPage").contentWindow.postMessage('getLocation', '*');
+			
+			function init() {
+
+//				var map = new qq.maps.Map(document.getElementById("container"), {
+//					center: new qq.maps.LatLng(39.916527, 116.397128),
+//					zoom: 13
+//				});
+				//实例化自动完成Autocomplete(inputElement:HTMLElement, options?:AutocompleteOptions)
+				var ap = new qq.maps.place.Autocomplete(document.getElementById("place"),{location:"广州市"});
+				//添加监听事件
+					qq.maps.event.addListener(ap, "confirm", function(res) {
+						
+						console.log(res)
+						
+					});
+
+//				$.ajax({
+//					type:"get",
+//					url:"http://apis.map.qq.com/ws/place/v1/suggestion?keyword=南方&key=22ABZ-SML6F-KB5J6-NV7H2-EIZ7J-CHBQL",
+//					success:function(e){
+//						console.log(e)
+//					}
+//				});
+			}
+			init()
+
+		</script>
+	 <!--<script type="text/javascript" src="${ctx}/js/jqueryUI/jquery.ui.autocomplete.js"></script>
+		<script>
+				$( "#searchStreedRoad_auto" ).autocomplete({// searchStreedRoad_auto 输入框id
+	            source: function( request, response ) {
+	                $.ajax({
+	                    url: ctx + '/gisQuery/gisAutoQuery.action', // 后台请求路径
+	                    dataType: "json",
+	                    data:{
+	                        "inputStr": request.term    // 获取输入框内容
+	                    },
+	                    success: function( data ) {
+	 
+	                        response( $.map( $.parseJSON(data), function( item ) { // 此处是将返回数据转换为 JSON对象，并给每个下拉项补充对应参数
+	                            return {
+	                                 // 设置item信息
+	                                 label: item.chinese_name +"    "+item.english_name, // 下拉项显示内容
+	                                 value: item.chinese_name,   // 下拉项对应数值
+	                                 code:item.code, // 其他参数， 可以自定义
+	                                 object_id : item.object_id, <span style="font-family: Arial, Helvetica, sans-serif;">// 其他参数， 可以自定义</span>
+	                                                                 
+	                            }
+	                        }));
+	                    }
+	                });
+	            },
+	            minLength: 2,  // 输入框字符个等于2时开始查询
+	            select: function( event, ui ) { // 选中某项时执行的操作
+	                // 存放选中选项的信息
+	                $("#g_code").val(ui.item.code);
+	                $("#g_object_id").val(ui.item.object_id);
+	                 
+	              }
+	               
+	            });
+		</script>-->
+		
+	</body>
+</html>

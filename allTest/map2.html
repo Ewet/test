@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>百度地图输入搜索</title>
+	</head>
+	<body>
+		<input type="inputText" tabindex="7" id="addr2" name="addr2" placeholder="请输入具体的地址" style="width: 277px;visibility: hidden"/>  
+		<input type="inputText" tabindex="7" id="addr" name="addr" placeholder="请输入具体的地址" style="width: 277px;z-index: 1;margin-left: -282px;" onkeyup="mysearch(this)"/>  
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js" ></script>
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=EZPCgQ6zGu6hZSmXlRrUMTpr"></script>  
+		<div id="r-result">请输入<input type="text" id="suggestId" value="百度" style="width: 400px;"/></div>
+        <div id="searchResultPanel" style="border: 1px solid #C0C0C0; width: 400px; height: auto; display: none;"></div>  
+        <div id="l-map"></div>  
+         <script type="text/javascript">  
+  
+                                        function mysearch(e) {  
+                                            if ($('#province3').val() == '') {  
+                                                layer.alert('请先选择省市区');  
+                                                $('#addr').val('');  
+                                                $('#addr2').val('');  
+                                            }  
+                                            $('#addr2').val($('#province3').val() + $('#city3').val() + $('#area3').val() + $(e).val());  
+                                        }  
+  
+                                        // 百度地图API功能  
+                                        function G(id) {  
+                                            return document.getElementById(id);  
+                                        }  
+  
+                                        var map = new BMap.Map("l-map");  
+                                        map.centerAndZoom("北京", 12); // 初始化地图,设置城市和地图级别。  
+  
+                                        var ac = new BMap.Autocomplete( //建立一个自动完成的对象  
+                                        {  
+                                            "input": "addr2",  
+                                            "location": map  
+                                        });  
+  
+                                        ac.addEventListener("onhighlight", function (e) { //鼠标放在下拉列表上的事件  
+                                           
+                                            var str = "";  
+                                            var _value = e.fromitem.value;  
+                                            var value = "";  
+                                            if (e.fromitem.index > -1) {  
+                                                value = _value.province + _value.city + _value.district + _value.street + _value.business;  
+                                            }  
+                                            str = "FromItem<br />index = " + e.fromitem.index + "<br />value = " + value;  
+  
+                                            value = "";  
+                                            if (e.toitem.index > -1) {  
+                                                _value = e.toitem.value;  
+                                                value = _value.province + _value.city + _value.district + _value.street + _value.business;  
+                                                
+                                            }  
+                                            str += "<br />ToItem<br />index = " + e.toitem.index + "<br />value = " + value;  
+                                            G("searchResultPanel").innerHTML = str;  
+                                        });  
+  
+                                        var myValue;  
+                                        ac.addEventListener("onconfirm", function(e) { //鼠标点击下拉列表后的事件  
+                                            var _value = e.item.value;  
+                                            myValue = _value.province + _value.city + _value.district + _value.street + _value.business;  
+                                            G("searchResultPanel").innerHTML = "onconfirm<br />index = " + e.item.index + "<br />myValue = " + myValue;  
+  
+                                            setPlace();  
+  
+                                            $('#addr').val(_value.street + _value.business);  
+                                              
+                                            
+                                        });  
+  
+                                        function setPlace() {  
+                                            map.clearOverlays(); //清除地图上所有覆盖物  
+                                            function myFun() {  
+                                                  
+                                                var pp = local.getResults().getPoi(0).point; //获取第一个智能搜索的结果  
+                                                map.centerAndZoom(pp, 18);  
+                                                map.addOverlay(new BMap.Marker(pp)); //添加标注  
+                                                
+                                            }  
+  
+                                            var local = new BMap.LocalSearch(map, {  
+                                                //智能搜索  
+                                                onSearchComplete: myFun  
+                                            });  
+                                            local.search(myValue);  
+                                        }  
+                                    </script>  
+		
+		
+	</body>
+</html>

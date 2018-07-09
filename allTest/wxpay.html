@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>微信支付</title>
+	</head>
+	<body>
+		<div align="center"> 
+  输入支付参数：<br /><br /> 
+  <textarea id="pay_param"></textarea> <br/><br />   
+  <button style="width:210px; height:50px; border-radius: 15px;background-color:#FE6714; border:0px #FE6714 solid; cursor: pointer; color:white; font-size:16px;" type="button" onclick="docallpay()" >立即支付</button>
+</div>
+
+		<!--①如何才能调用微信的支付控件？ 
+		②调用微信的支付控件需要哪些要求（证书？签名？域名？）？     授权域可以在微信支付的开发配置里面设置
+		③可以发送哪些数据？ 
+		④可以获得哪些数据？ 
+		⑤怎么操作？ 
+		⑥订单如何生成并发布给后台 
+		⑦该发布怎么样的参数以及如何给定被授权的域名-->
+		<script type="text/javascript">
+//			let timeStamp = parseInt(new Date().getTime()/1000);
+//			var timeStamp = Math.round(new Date().getTime()/1000) 
+//			function RndNum(n){
+//			    var rnd="";
+//			    for(var i=0;i<n;i++)
+//			        rnd+=Math.floor(Math.random()*10);
+//			    return rnd;
+//			}
+//			function randomString(len) {
+//			    var len = len || 32;
+//			    var chars =  'ABCDEFGHJKMNPQRSTWXYZabcdefhijkmnprstwxyz2345678';
+//			    var maxPos = chars.length;
+//			    var result = '';
+//			    for (var i = 0; i < len; i++) {
+//			        result += chars.charAt(Math.floor(Math.random()*maxPos));
+//			    }
+//			    return result;
+//			}
+//			let nonceStr = randomString(30)
+		
+    function docallpay() { 
+      var pay_param = document.getElementById('pay_param').value; 
+      callWxJsPay(pay_param, callback); 
+    } 
+    function callback(state, msg) { 
+      alert(state + " " + msg); 
+    } 
+//调用微信JS api 支付function 
+jsApiCall(pay_param, callback){ 
+  var pay_param_arr = eval("(" + pay_param + ")"); 
+  WeixinJSBridge.invoke( 
+    'getBrandWCPayRequest',{ 
+      'appId':pay_param_arr.appId,   
+      'timeStamp':pay_param_arr.timeStamp+"", 
+      'nonceStr':pay_param_arr.nonceStr, 
+      'package':pay_param_arr.package, 
+      'signType':pay_param_arr.signType, 
+      'paySign':pay_param_arr.paySign 
+    }, 
+    function(res){ 
+      if(res.err_msg == "get_brand_wcpay_request:ok") { 
+        //成功 
+        callback("ok"); 
+      } else if(res.err_msg == "get_brand_wcpay_request:cancel") {   
+        //取消 
+        callback("cancel"); 
+      } else { 
+        //失败 
+        callback("fail", res.err_desc); 
+      } 
+    } );
+  }
+
+/** * 微信公众号支付
+ * @param pay_param 服务端生成的pay_param
+ */
+function callWxJsPay(pay_param, callback){ 
+  if (typeof WeixinJSBridge == "undefined"){ 
+    if( document.addEventListener ){ 
+      document.addEventListener('WeixinJSBridgeReady', jsApiCall, false); 
+    }else if (document.attachEvent){ 
+      document.attachEvent('WeixinJSBridgeReady', jsApiCall); 
+      document.attachEvent('onWeixinJSBridgeReady', jsApiCall); 
+    } 
+  }else{ 
+    jsApiCall(pay_param, callback); 
+  }
+}
+
+
+
+  </script>
+
+
+
+	</body>
+</html>
