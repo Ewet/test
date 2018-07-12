@@ -1,0 +1,27 @@
+@mixin defFont{
+    width: 80px;
+    font:{
+        size: 50px;
+        weight: normal;
+    }
+}
+
+@mixin defmargin($mar,$pad){
+    margin: $mar;
+    padding: $pad;
+}
+h3{
+    @include defFont; 
+    @include defmargin(30px,20px);
+}
+
+
+
+
+
+
+
+
+
+
+

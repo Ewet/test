@@ -1,0 +1,50 @@
+h4 {
+  font-size: 20px;
+  color: deepskyblue; }
+
+body {
+  line-height: 2; }
+
+.box {
+  font-size: 12px;
+  font-weight: bold; }
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table; }
+.clearfix:after {
+  clear: both;
+  overflow: hidden; }
+
+button {
+  -webkit-border-radius: 3px;
+  border-radius: 3px; }
+
+input {
+  -webkit-border-radius: 6px;
+  border-radius: 6px; }
+
+.box-center {
+  width: 500px;
+  height: 300px; }
+
+.btn, .btn-primary {
+  border: 1px solid #ccc;
+  padding: 6px 10px;
+  font-size: 14px; }
+
+.btn-primary {
+  background-color: #f36;
+  color: #fff; }
+
+.btn, .btn-primary, .block {
+  margin-top: 5px; }
+
+.btn, .btn-primary, .block span {
+  padding-top: 5px; }
+
+.login-box {
+  margin-top: 14px;
+  padding-top: 14px; }
+
+/*# sourceMappingURL=index.css.map */

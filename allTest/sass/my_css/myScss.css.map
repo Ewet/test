@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAYA,EAAE;EAXE,KAAK,EAAE,IAAI;EAEP,SAAI,EAAE,IAAI;EACV,WAAM,EAAE,MAAM;EAKlB,MAAM,EAKa,IAAI;EAJvB,OAAO,EAIiB,IAAI",
+"sources": ["myScss.scss"],
+"names": [],
+"file": "myScss.css"
+}

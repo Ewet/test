@@ -1,0 +1,130 @@
+//https://www.jianshu.com/p/fa379a309c8a
+
+//基本用法
+$b:20px;
+$col: deepskyblue;
+h4{
+    font-size:$b;
+    color: $col;
+}   
+//普通变量和默认变量
+$baseLineHeight: 2;
+$baseLineHeight: 1.5 !default;
+body {
+    line-height: $baseLineHeight;
+}
+
+//13.2 属性嵌套(有相同的属性前缀) 
+.box {
+  font: {
+   size: 12px;
+   weight: bold;
+  }  
+}    
+
+//伪类嵌套 
+.clearfix{
+&:before,
+&:after {
+    content:"";
+    display: table;
+  }
+&:after {
+    clear:both;
+    overflow: hidden;
+  }
+}  
+
+//调用混合宏
+@mixin border-radius{
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+button {
+    @include border-radius;
+}
+
+@mixin border-radius($radius:8px){
+    -webkit-border-radius: $radius;
+    border-radius: $radius;
+}
+input {
+    @include border-radius(6px);
+}
+//传多个参数值
+@mixin size($width,$height){
+  width: $width;
+  height: $height;
+}
+.box-center {
+  @include size(500px,300px);
+}
+      
+//sass 继承      
+.btn {
+  border: 1px solid #ccc;
+  padding: 6px 10px;
+  font-size: 14px;
+}
+.btn-primary {
+  background-color: #f36;
+  color: #fff;
+  @extend .btn;
+}
+    
+
+  
+//sass占位符%
+%mt5 {
+  margin-top: 5px;
+}
+%pt5{
+  padding-top: 5px;
+}
+.btn {
+  @extend %mt5;//使用@extend调用占位符代码
+  @extend %pt5;
+}
+.block {
+  @extend %mt5;
+  span {
+    @extend %pt5;
+  }
+}
+
+//层级调用
+.block {
+  @extend %mt5;
+  span {
+    @extend %pt5;
+  }
+}     
+      
+//sass插值   
+$properties: (margin, padding);
+@mixin set-value($side, $value) {
+    @each $prop in $properties {//对每个在$properties中的$prop,即$properties中的margin、padding
+        #{$prop}-#{$side}: $value;//$prop连接参数$side，值为参数$value
+    }
+}
+.login-box {
+    @include set-value(top, 14px);//调用混合宏
+}
+//sass 注释   
+//  /*注释内容*/ :会在编译出来的css文件中显示
+//注释内容 ：不会在编译出来的css文件中显示    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+          
