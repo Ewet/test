@@ -1,18 +1,65 @@
-@mixin defFont{
-    width: 80px;
-    font:{
-        size: 50px;
-        weight: normal;
-    }
+
+%mt5 {
+  margin-top: 40px; 
 }
 
-@mixin defmargin($mar,$pad){
-    margin: $mar;
-    padding: $pad;
+
+//基本样式
+$fc: #333333 !default; 
+$fc: #e08ba8;
+$bg_col: #e08ba8;
+$fs: 36px;
+
+
+//基本字体
+@mixin defFont{
+    font:{
+        size: 32px;
+        weight: normal;
+        family: "微软雅黑";
+    }
+    color:$fc;
 }
-h3{
-    @include defFont; 
-    @include defmargin(30px,20px);
+
+//弹性盒子
+@mixin defFlex{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+//margin
+@mixin mar($t,$r,$b,$l){
+    box-sizing: border-box;
+    margin: $t $r $b $l;
+}
+
+//padding
+@mixin pad($t,$r,$b,$l){
+    padding: $t $r $b $l;
+    box-sizing: border-box;
+}
+
+//img
+@mixin img{
+    width: 100%;
+    height: 100%;
+}
+
+.content{
+    @include defFlex;
+    background: $bg_col;
+    .test{
+        @include defFont;
+        p{
+            @include defFlex;
+        }
+    }
+}
+h3{ 
+    @include defFont;
+    @include pad(10px,20px,10px,20px);
 }
 
 

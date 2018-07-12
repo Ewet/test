@@ -1,8 +1,27 @@
+@charset "UTF-8";
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background: #e08ba8; }
+  .content .test {
+    font-size: 32px;
+    font-weight: normal;
+    font-family: "微软雅黑";
+    color: #e08ba8; }
+    .content .test p {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-content: center; }
+
 h3 {
-  width: 80px;
-  font-size: 50px;
+  font-size: 32px;
   font-weight: normal;
-  margin: 30px;
-  padding: 20px; }
+  font-family: "微软雅黑";
+  color: #e08ba8;
+  padding: 10px 20px 10px 20px;
+  box-sizing: border-box; }
 
 /*# sourceMappingURL=myScss.css.map */
