@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>代销卡</title>
+		<script type="text/javascript" src="js/vue.js" ></script>
+	</head>
+	<body>
+		<div id="dai">
+			{{xiao}}
+			<img :src="img" v-on:click="kaka">
+		</div>
+	</body>
+	<script type="text/javascript">
+		var aa = new Vue({
+			el:"#dai",
+			data:{
+				xiao:"ting",
+				img:'image/01.jpg'
+			},
+			methods:{
+				kaka:function(){
+					alert(678)
+				}
+			}
+			
+		})
+	</script>
+</html>
