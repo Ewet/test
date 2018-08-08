@@ -4,6 +4,6 @@ layui.config({
     base: url 
 }).extend({ 
     common: 'common',
-//  formSelects: 'formSelects-v4',
-//  myechart: 'myechart'
+    formSelects: 'formSelects-v4',
+    myechart: 'myechart'
 });
