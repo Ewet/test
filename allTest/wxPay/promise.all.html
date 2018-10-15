@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>枚举执行</title>
+	</head>
+	<body>
+	</body>
+	<script>
+		// 写法1
+//		function fun1(num = -1) {     
+//			// 在fun1中返回一个promise对象    
+//			return new Promise(function(resolve, reject) {        
+//				// 为了体现是异步接口，这里使用一个定时器，延迟3秒        
+//				setTimeout(resolve, 3000, 'fun1');    
+//			})
+//		};
+//		function fun2(num2 = 200) {
+//			// 在fun2中也返回一个promise对象    
+//			return new Promise(function(resolve, reject) {        
+//				// 为了和fun1区分开来，fun2延迟1秒        
+//				setTimeout(resolve, 1000, 'fun2');    
+//			})
+//		}
+//		// 由于fun1和fun2是方法，所以使用fun1()执行该方法
+//		Promise.all([1,2]).then(function(result) {    
+//			console.log(result)
+//			// 输入应该为 ['fun1','fun2']
+//		})
+		let time = new Date().getTime();
+		let end = 7*24*60*60*1000
+		let dt = time -  end
+		console.log(time)
+		console.log(dt)
+	</script>
+</html>

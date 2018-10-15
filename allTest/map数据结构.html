@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>map</title>
+	</head>
+	<body>
+	</body>
+	<script>
+		var t = [{'Michael': '95'},{'Bob': '75'},{'Tracy': '85'}];
+		var m = new Map([['Michael', 95], ['Bob', 75], ['Tracy', 85]]);
+//		m.forEach(function (value, key, map) {
+//		    console.log(value,key);
+//		});
+		for (var x of m) { // 遍历Map
+		    console.log(x[0]);
+		}
+	</script>
+</html>
