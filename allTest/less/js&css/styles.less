@@ -1,0 +1,44 @@
+@color: yellow;
+.block{
+    color: @color; // 变量的继承方法；
+}
+// 函数
+.rounded-corners (@radius: 5px) {
+  border-radius: @radius;
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+}
+.fontsize{
+    font-size: 50px;
+}
+// 继承/混合
+#header {
+  background: #00BFFF;
+  .rounded-corners; //函数的继承方法
+  &:extend(.fontsize);// 类名的继承方法,也可以使用函数的继承方法
+//&:extend(.rounded-corners); //函数的继承不能使用这种方式
+}
+#footer {
+   background: #00BFFF;
+  .rounded-corners(10px);
+}
+
+//@arguments 变量
+//包含了所有传递进来的参数
+.box-shadow (@x: 0, @y: 0, @blur: 1px, @color: #000) {
+  box-shadow: @arguments;
+  -moz-box-shadow: @arguments;
+  -webkit-box-shadow: @arguments;
+}
+.box-shadow(2px, 5px);
+//将会输出:
+//
+//box-shadow: 2px 5px 1px #000;
+//-moz-box-shadow: 2px 5px 1px #000;
+//-webkit-box-shadow: 2px 5px 1px #000;
+
+
+
+
+
+

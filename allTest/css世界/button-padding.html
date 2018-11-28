@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			/*button {
+			position: absolute;
+			clip: rect(0 0 0 0);
+			}
+			label {
+			display: inline-block;
+			line-height: 20px;
+			padding: 10px;
+			}*/
+			
+			.icon-menu {
+				display: inline-block;
+				width: 140px; 
+				height: 10px;
+				padding: 35px 0;
+				border-top: 10px solid currentColor;
+				border-bottom: 10px solid currentColor;
+				background-color: currentColor;  /*padding也会有背景颜色*/
+				background-clip: content-box;
+			}
+			p{
+				margin: 20px 0;
+			}
+		</style>
+	</head>
+	<body>
+		<button id="btn"></button>
+		<label for="btn">按钮</label>
+		<span class="icon-menu"></span>
+		<p>dd</p>
+		<p>dd</p>
+	</body>
+</html>
