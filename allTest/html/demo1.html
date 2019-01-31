@@ -5,8 +5,79 @@
 	<link rel="stylesheet" type="text/css" href="css/demo1.css">
 </head>
 <body>	
-	<p>this is a embass</p>   
+	<table border="1" cellspacing="2" cellpadding="2">
+		<thead>
+			<tr>
+				<th>jsdkjfkd</th>
+				<th>jsdkjfkd</th>
+				<th>jdjkkdfsdkji</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>kkdkfksdk</td>
+			</tr>
+			<tr>
+				<td>skdkjskdfk</td>
+			</tr>
+		</tbody>
+	</table>  
 </body>
+<script type="text/javascript">
+// 	var length = 10;
+// 
+// function fn () {
+//     console.log(this.length);
+// }
+//  
+// var obj = {
+//     length: 5,
+//     method: fn()
+// };
+//  
+// obj.method;
+// 
+// if (a) {
+// 	a 不为null ,0 ,undefined ,'' 时进入这里
+// } else {
+// 	相反则进入这里
+// }
+
+// function fmoney(s) {
+//     s = parseFloat((s + "").replace(/[^\d\.-]/g, "")) + "";
+//     var l = s.split(".")[0].split("").reverse(),
+//         t = "";
+//     for (i = 0; i < l.length; i++) {
+//         t += l[i] + ((i + 1) % 3 == 0 && (i + 1) != l.length ? "," : "");
+//     }
+// 	if (s.split(".")[1]) {
+// 		let k =  '0.' + s.split(".")[1];
+// 		let mins = Number(k).toFixed(2)
+// 		k = mins.substr(2,2)
+// 		return t.split("").reverse().join("") + "." +k;
+// 	} else {
+// 		return t.split("").reverse().join("") + ".00"
+// 	}
+// }
+// let ar = fmoney(888);
+// console.log(ar)
+window.val = 1;
+ 
+var obj = {
+    val: 2,
+    dbl: function () {
+        this.val *= 2;  4
+        val *= 2;       4
+        console.log('val:', val); 2
+        console.log('this.val:', this.val); 2
+    }
+};
+
+ // 说出下面的输出结果
+ obj.dbl();
+ var func = obj.dbl;
+ func(); 1 
+</script>
 </html>
 
 
