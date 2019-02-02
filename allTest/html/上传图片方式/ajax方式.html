@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<!--需要调整页面样式和更改图片接口才能显示图片 ，-->
+		<style>
+			img{width: 100px;height: 100px;}
+		</style>
+		<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery.form.js"></script>
+		<script>
+			/***图片上传预览***/
+			function fileImg(a,b,c,d){ //上传预览图片
+		//		a.each(function(i,ele){
+					a.change(function(){
+		            	b.ajaxSubmit({
+			            	type:"post",
+			            	async:true,
+			            	url:javaUrlPrev+'/zhkj-syq/api/other/upload.json',
+			            	crossDomain: true,
+				            xhrFields: {
+				                withCredentials: true
+				            },
+				            
+			            	success:function(res){
+			            		console.log(res)
+			            		if(res.ret==0){
+			            			var submitUrl = res.visitUrl;
+			            			c.hide();
+			            			d.attr("src",submitUrl);
+			            			d.show();
+		//	            			console.log(res.visitUrl)
+		//	            			return res.visitUrl;
+			            		}
+			            	}
+			            })
+		            }) 
+		//		})
+			}
+			
+			fileImg($("#preview1"),$("#ajaxform1"),$(".pic .plus1"),$("#imgsrc1"));
+		</script>
+	</head>
+	<body>
+		<div class="pic">
+			<form id="ajaxform1">
+				<input type="file" name="file" id="preview1"/>
+				<i class="plus1"></i>
+				<img src="" alt="" id="imgsrc1"/>
+			</form>
+		</div>
+	</body>
+	
+</html>
