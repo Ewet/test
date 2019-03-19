@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>接口请求</title>
+	</head>
+	<body>
+		<button class="btn" type="button">请求</button>
+		<script src="./jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$('.btn').click(function () {
+				$.ajax({
+					type: "GET",
+					type: "GET",
+					url: "212.50.227.123:8081/dapengtellyou/gameBless/comparisonExcel",
+					data: '',
+					dataType: "json",
+					success: function(res){
+						console.log(res);
+					},
+					error: function(err){
+						console.log(err)
+					}
+				})
+			})
+		</script>
+	</body>
+</html>
