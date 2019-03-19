@@ -1,0 +1,52 @@
+{
+  "data": [
+    {
+      "layer_no": 1,
+      "status_format": "上新",
+      "status": 1,
+      "old_goods_id":"1",
+      "old_goods_name": "新奇士汽水",
+      "old_pic": "https://sili-pr.oss-cn-shenzhen.aliyuncs.com/335502059047494155",
+      "old_price": 1.9,
+      "old_quantity": 15,
+      "new_goods_id":"XXX",
+      "new_goods_name": "新奇士汽水",
+      "new_pic": "https://sili-pr.oss-cn-shenzhen.aliyuncs.com/335502059047494155",
+      "new_price": 1.9,
+      "new_quantity": 17
+    },
+    {
+      "layer_no": 2,
+      "status_format": "上新",
+      "status": 1,
+      "old_goods_id":"-1",
+      "old_goods_name": "新奇士汽水",
+      "old_pic": "https://sili-pr.oss-cn-shenzhen.aliyuncs.com/335502059047494155",
+      "old_price": 1.9,
+      "old_quantity": 15,
+      "new_goods_id":"XXX",
+      "new_goods_name": "新奇士汽水",
+      "new_pic": "https://sili-pr.oss-cn-shenzhen.aliyuncs.com/335502059047494155",
+      "new_price": 1.9,
+      "new_quantity": 17
+    },
+    {
+      "layer_no": 3,
+      "status_format": "理货",
+      "status": 4,
+      "old_goods_id":"-1",
+      "old_goods_name": "新奇士汽水",
+      "old_pic": "https://sili-pr.oss-cn-shenzhen.aliyuncs.com/335502059047494155",
+      "old_price": 1.9,
+      "old_quantity": 15,
+      "new_goods_id":"XXX",
+      "new_goods_name": "新奇士汽水",
+      "new_pic": "https://sili-pr.oss-cn-shenzhen.aliyuncs.com/335502059047494155",
+      "new_price": 1.9,
+      "new_quantity": 17
+    }
+  ],
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

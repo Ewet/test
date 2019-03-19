@@ -1,0 +1,14 @@
+{
+  "data": {
+    "address": "广东  梅州",
+    "gender": "1",
+    "nickname": "锋",
+    "invite_code": "HKA9HAPL41",
+    "avatar": "http://thirdwx.qlogo.cn/mmopen/0E3x5vSvpbDgXPK78NN18yGGed5Pfx8EtPvZ7jxaFshUKWy5VaQJZ5wMOuJhXs0tCibb5hzpLroahkq00k7oia6ictHt4y3dfgt/132",
+    "gender_formatted": "男",
+    "url": "https://mp.weixin.qq.com/cgi-bin/showqrcode?ticket=gQFO7zwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyWnhxbDFfQW1mNGoxbGN4V05yY3gAAgRN1FJbAwT-jCcA"
+  },
+  "success": true,
+  "message": "成功获得二维码地址.",
+  "statusCode": 200
+}

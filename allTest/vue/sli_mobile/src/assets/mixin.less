@@ -1,0 +1,113 @@
+// 背景倍数自动选择
+.bg-image(@url) {
+    background-image: url("@{url}@2x.png");
+    @media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
+        background-image: url("@{url}@3x.png");
+    }
+  }
+  //头部1px像素边框
+  .setTopLine(@c: #ddd) {
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 1px;
+    border-top: 1px solid @c;
+    color: @c;
+    transform-origin: 0 0;
+    transform: scaleY(0.5);
+  }
+  
+  //底部1px像素边框
+  .setBottomLine(@c: #ddd) {
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 1px;
+    border-bottom: 1px solid @c;
+    color: @c;
+    transform-origin: 0 100%;
+    transform: scaleY(0.5);
+  }
+  
+  //顶部底部1px像素边框
+  .setTopBottomLine(@c: #ddd) {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 200%;
+    transform: scale(.5);
+    transform-origin: 0 0;
+    pointer-events: none;
+    box-sizing: border-box;
+    border-top: 1px solid @c;
+    border-bottom: 1px solid @c;
+  }
+  
+  //1px像素边框
+  .setLine(@c: #ddd) {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 200%;
+    transform: scale(.5);
+    transform-origin: 0 0;
+    pointer-events: none;
+    box-sizing: border-box;
+    border: 1px solid @c;
+  }
+  //右边1px像素边框兼容
+  .setRightLine(@c: #ddd) {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 200%;
+    transform: scale(.5);
+    transform-origin: 0 0;
+    pointer-events: none;
+    box-sizing: border-box;
+    border-right: 1px solid @c;
+  }
+  
+  //左边1px像素边框兼容
+  .setLeftLine(@c: #ddd) {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 200%;
+    transform: scale(.5);
+    transform-origin: 0 0;
+    pointer-events: none;
+    box-sizing: border-box;
+    border-left: 1px solid @c;
+  }
+  
+  //显示一行省略号
+  .ellipsis(@w:auto) {
+    width: @w;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+  }
+  
+  //显示两行省略号
+  .ellipsisLn(@line) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: @line;
+  }
+  

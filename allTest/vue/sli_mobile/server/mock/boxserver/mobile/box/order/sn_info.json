@@ -1,0 +1,108 @@
+{
+  "success": true,
+  "statusCode": 200,
+  "message": "success",
+  "data": {
+      "order_id": "xxxxxxxxx",
+      "order_sn": "xxxxxxxx",
+      "order_type": "xx",
+      "order_type_formatted": "xxxxxxx",
+      "merchant_id": "xxxxxxxxxx",
+      "district_id": "xxxxxxxx",
+      "box_id": "xxxxxxxxx",
+      "user_id": "xxxxxxxxx",
+      "invoice_id": "xxxxxxxxx",
+      "order_total": 111.22,
+      "real_total": 1111,
+      "points_deduction": 2222.22,
+      "coupon_deduction": 222.11,
+      "random_deduction": 22.11,
+      "refunded_total": 11.11,
+      "payment_method": "xx",
+      "payment_method_formatted": "xxxx",
+      "status": "15",
+      "status_formatted": "xxxxx",
+      "created_by": "xxxx",
+      "created_time": "xxxxxxxxx",
+      "created_time_formatted": "1999-11-11 11:11:11",
+      "paid_by": "xxxxx",
+      "paid_time": "xxxxxxxx",
+      "paid_time_formatted": "1999-11-11 11:11:11",
+      "updated_time": "xxxxx",
+      "updated_time_formatted": "1999-11-11 11:11:11",
+      "details": [
+        {
+          "detail_id": "xxxxxx",
+          "order_id": "xxxxxx",
+          "layer_id": "xxxxxxxx",
+          "goods_id": "xxxxxxx",
+          "distributor_id": "xxxxxxxxxxx",
+          "price": 111.11,
+          "quantity": 11,
+          "refunded_quantity": 11,
+          "can_refund_quantity": 1,
+          "goods_total_price":"22.00",
+          "goods": {
+              "goods_name": "法国龙船小庄园750ml 2016年",
+              "goods_image" : "https://sili-pr.oss-cn-shenzhen.aliyuncs.com/317027283796776190"
+            }
+        },
+        {
+          "detail_id": "xxxxxx",
+          "order_id": "xxxxxx",
+          "layer_id": "xxxxxxxx",
+          "goods_id": "xxxxxxx",
+          "distributor_id": "xxxxxxxxxxx",
+          "price": 111.11,
+          "quantity": 3,
+          "refunded_quantity": 1,
+          "can_refund_quantity": 2,
+          "goods_total_price":"12.00",
+          "goods": {
+              "goods_name": "法国龙船小庄园750ml",
+              "goods_image" : "https://sili-pr.oss-cn-shenzhen.aliyuncs.com/317027283796776190"
+            }
+        }
+        ],
+      "customer": {
+          "user_id": "xcxxx",
+          "wxuser_id": "xcxxxx",
+          "nickname": "xxxxxx",
+          "realname": "xxxx",
+          "gender": "xxx",
+          "gender_formatted": "xxxx",
+          "mobile": "xxxx",
+          "mobile_verified": "xxx",
+          "avatar": "xxxxxxxx",
+          "created_time": "xxxxxxxxxxx",
+          "created_time_formatted": "1999-11-11 11:11:11",
+          "updated_time": "xxxxxxxxx",
+          "updated_time_formatted": "xxxxxxxxxx"
+      },
+      "purchasing": {
+          "name": "xxxxx",
+          "mobile": "xxxxxx"
+      },
+      "box": {
+          "box_no": "xxxx",
+          "address": "xxxxxxxx"
+      },
+      "merchant": {
+          "merchant_id": "xxxxx",
+          "user_id": "xxxx",
+          "name": "xxxx",
+          "legal_person": "xxxx",
+          "legal_person_id": "xxxxxxx",
+          "address": "xxxx",
+          "join_time": "xxxx",
+          "join_time_formatted": "1999-11-11 11:11:11",
+          "max_number_of_agents": 1111,
+          "status": "xxxx",
+          "status_formatted": "xxxx",
+          "created_time": "xxxxxxxxxxx",
+          "created_time_formatted": "1999-11-11 11:11:11",
+          "updated_time": "xxxxxxxxx",
+          "updated_time_formatted": "xxxxxxxxxx"
+      }
+  }
+}

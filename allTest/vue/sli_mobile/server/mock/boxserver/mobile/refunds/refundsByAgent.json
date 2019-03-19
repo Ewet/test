@@ -1,0 +1,18 @@
+{
+  "data": {
+    "refundsTime":"2018-06-18 13:01:05",
+    "order_sn": "180528-181927-995294",
+    "goodsList": [
+      {
+        "goods_name": "玛诗歌园马尔贝克红葡萄酒",
+        "refunded_quantity": 1,
+        "price": 168,
+        "image_url": "https://sili-pr.oss-cn-shenzhen.aliyuncs.com/324451100407070070",
+        "goods_id": "320981673868969211"
+      }
+    ]
+  },
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

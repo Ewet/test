@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "message": "OK",
+  "statusCode": 200,
+  "data": {
+    "coupon_deduction": 123.12,
+    "remaining": 123.12
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "data": {
+      "created_time": 1522392465,
+      "updated_time": 1522630446,
+      "created_time_fromat": "2018-03-30 14:47:45",
+      "updated_time_fromat": "2018-04-02 08:54:06",
+      "title_id": "315816465607233206",
+      "type": 2,
+      "company_address": "313213",
+      "type_format": "企业(单位)",
+      "user_id": "310379057377050099",
+      "phone": "23232333331",
+      "tax_number": "32133",
+      "name": "三乡微大科技",
+      "bank_name": "3232",
+      "bank_account": "233223"
+  },
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

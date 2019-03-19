@@ -1,0 +1,11 @@
+{
+  "success": true,
+  "message": "OK",
+  "statusCode": 200,
+  "data": {
+    "need_pay" : false,
+    "free":true,
+    "real_receive" : 0,
+    "random_deduction": 158
+  }
+}

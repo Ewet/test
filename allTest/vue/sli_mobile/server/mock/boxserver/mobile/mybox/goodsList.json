@@ -1,0 +1,38 @@
+{
+  "data": {
+      "items": [{
+          "goods_id": "1",
+          "goods_name": "嘉斯山珍藏佳美娜红葡萄酒",
+          "quantity": 6,
+          "price": 1,
+          "file_image_url": "https://sili-pr.oss-cn-shenzhen.aliyuncs.com/317111813058732192"
+      }, {
+          "goods_id": "317895744904934109",
+          "goods_name": "嘉斯山珍藏佳美娜红葡萄酒",
+          "quantity": 6,
+          "price": 1,
+          "file_image_url": "https://sili-pr.oss-cn-shenzhen.aliyuncs.com/317111813058732192"
+      }, {
+          "goods_id": "317895744904934109",
+          "goods_name": "嘉斯山珍藏佳美娜红葡萄酒",
+          "quantity": 6,
+          "price": 1,
+          "file_image_url": "https://sili-pr.oss-cn-shenzhen.aliyuncs.com/317111813058732192"
+      }, {
+          "goods_id": "317895744904934109",
+          "goods_name": "嘉斯山珍藏佳美娜红葡萄酒",
+          "quantity": 6,
+          "price": 1,
+          "file_image_url": "https://sili-pr.oss-cn-shenzhen.aliyuncs.com/317111813058732192"
+      }, {
+          "goods_id": "317895744904934109",
+          "goods_name": "嘉斯山珍藏佳美娜红葡萄酒",
+          "quantity": 6,
+          "price": 1,
+          "file_image_url": "https://sili-pr.oss-cn-shenzhen.aliyuncs.com/317111813058732192"
+      }]
+  },
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

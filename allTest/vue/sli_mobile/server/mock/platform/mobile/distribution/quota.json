@@ -1,0 +1,10 @@
+{
+  "data": {
+    "user_id": "000",
+    "residue_commission_limit": 500.0,
+    "commission_limit": 500.0
+  },
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

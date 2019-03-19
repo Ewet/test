@@ -1,0 +1,31 @@
+{
+  "data": {
+    "member_type": [{
+      "type_name": "普通会员",
+      "type_key": 1
+    }],
+    "address": "广东  梅州",
+    "is_trader_formatted": "是",
+    "trader_type": "1",
+    "gender": "0",
+    "trader_type_formatted": "普通会员",
+    "openid": "oJBbE0--vwrJc7-QWYUrnZnUVqok",
+    "mobile": "13622958791",
+    "avatar": "http://thirdwx.qlogo.cn/mmopen/fr06MFq6j2KiaTLNmIDvEC2WGVoACvPwc9u60nsYI7Jf64Vv02m0pZ18GhudKuYo94bAYpbe3GibcxibGqMPEqAPVPCWRUFrKicib/132",
+    "status_formatted": "正常",
+    "is_trader": 1,
+    "trader_qrcode": null,
+    "realname": null,
+    "user_id": "321005786336818176",
+    "credit1": 100000,
+    "nickname": "锋",
+    "invite_code": "HKA9HAPL41",
+    "gender_formatted": "未知",
+    "email": null,
+    "status": "1",
+    "has_finish_order": 1
+  },
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

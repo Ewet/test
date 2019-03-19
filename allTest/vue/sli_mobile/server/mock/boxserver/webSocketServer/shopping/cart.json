@@ -1,0 +1,27 @@
+{
+    "data": {
+        "goodsSum": 6,
+        "name": "测试商户",
+        "box_no": "NO00001",
+        "sumPrice": 760,
+        "qrcode": "sssss",
+        "detail": [{
+            "goods_name": "泰奇八宝粥",
+            "quantity": 2,
+            "goods_image": "https://sili-pr.oss-cn-shenzhen.aliyuncs.com/317026672795399012",
+            "layer_no": "009",
+            "price": "42",
+            "goods_id": "317026674089627008"
+        }, {
+            "goods_name": "花骑士红葡萄酒",
+            "quantity": 4,
+            "goods_image": "https://sili-pr.oss-cn-shenzhen.aliyuncs.com/319516586629397207",
+            "layer_no": "008",
+            "price": "169",
+            "goods_id": "317895487518699051"
+        }]
+    },
+    "message": "success",
+    "success": true,
+    "statusCode": 200
+}

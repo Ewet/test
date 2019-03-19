@@ -1,0 +1,8 @@
+{
+  "data": {
+    "session_id": "2FE129A1882F4085A897C1CD322546FF"
+  },
+  "success": false,
+  "message": "用户未验证手机号",
+  "statusCode": 402
+}

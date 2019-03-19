@@ -1,0 +1,59 @@
+{
+    "data": {
+     "pagination": {
+      "cur_page": 1,
+      "page_size": 10,
+      "total_page": 8,
+      "record_count": 79,
+      "pre": 1,
+      "next": 2,
+      "start": 0,
+      "end": 10
+     },
+     "items": [
+        {
+            "status_format": "已部分退款",
+            "random_deduction": "0.00",
+            "paid_time": 1548745254,
+            "goodsList": [
+             {
+              "goods_name": " 纷赋红牌设拉子赤霞珠红葡萄酒",
+              "quantity": 1,
+              "price": "88.00",
+              "refunded_quantity": 1,
+              "goods_id": "325406344959901087",
+              "market_price": "88.00",
+              "pic": "https://sili-pr.oss-cn-shenzhen.aliyuncs.com/325743200317301135"
+             },
+             {
+              "goods_name": "维他菊花茶",
+              "quantity": 1,
+              "price": "2.90",
+              "refunded_quantity": 0,
+              "goods_id": "325564405281115183",
+              "market_price": "2.90",
+              "pic": "https://sili-pr.oss-cn-shenzhen.aliyuncs.com/325564855445042161"
+             }
+            ],
+            "payment_method_format": "微信",
+            "plf_order_id": "342169177696321393",
+            "points_deduction": "0.00",
+            "goodsCount": 2,
+            "is_refundable": true,
+            "coupon_deduction": "90.00",
+            "name": "米莉之家",
+            "refunded_total": "0.87",
+            "order_total": "90.90",
+            "paid_total": "0.03",
+            "order_id": "342169177694454318",
+            "order_sn": "190129-145937-507616",
+            "payment_method": 1,
+            "real_pay": 1,
+            "status": 15
+           }
+     ]
+    },
+    "success": true,
+    "message": "success",
+    "statusCode": 200
+   }

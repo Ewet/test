@@ -1,0 +1,115 @@
+{
+  "success": true,
+  "statusCode": 200,
+  "message": "success",
+  "data": {
+    "pagination": {
+        "cur_page": 1,
+        "page_size": 10,
+        "total_page": 3,
+        "record_count": 25,
+        "pre": 1,
+        "next": 1,
+        "start": 0,
+        "end": 10
+    },
+    "items": [
+        {
+          "orderNum": "125155154545",
+          "logisticsstate": "卖家已发货",
+          "status": 1,
+          "total": "5.20",
+          "goods": [
+            {
+              "goods_id": "1",
+              "goodsimage": "./images/defaultgoods@2x.png",
+              "goodsname": "法国龙船小庄园750ml 2016年",
+              "price": "1343.25",
+              "originalprice": "2713.26",
+              "quanity": 1
+            },
+            {
+              "goodsId": "1",
+              "goodsimage": "./images/defaultgoods@2x.png",
+              "goodsname": "法国龙船小庄园750ml 2016年",
+              "price": "1343.25",
+              "originalprice": "2713.26",
+              "quanity": 2
+            }
+          ]
+        },
+        {
+            "orderNum": "125155154545",
+            "logisticsstate": "卖家已发货",
+            "status": 2,
+            "total": "5.20",
+            "goods": [
+              {
+                "goods_id": "1",
+                "goodsimage": "./images/defaultgoods@2x.png",
+                "goodsname": "法国龙船小庄园750ml 2016年",
+                "price": "1343.25",
+                "originalprice": "2713.26",
+                "quanity": 1
+              },
+              {
+                "goodsId": "1",
+                "goodsimage": "./images/defaultgoods@2x.png",
+                "goodsname": "法国龙船小庄园750ml 2016年",
+                "price": "1343.25",
+                "originalprice": "2713.26",
+                "quanity": 2
+              }
+            ]
+          },
+          {
+            "orderNum": "125155154545",
+            "logisticsstate": "卖家已发货",
+            "status": 1,
+            "total": "5.20",
+            "goods": [
+              {
+                "goods_id": "1",
+                "goodsimage": "./images/defaultgoods@2x.png",
+                "goodsname": "法国龙船小庄园750ml 2016年",
+                "price": "1343.25",
+                "originalprice": "2713.26",
+                "quanity": 1
+              },
+              {
+                "goodsId": "1",
+                "goodsimage": "./images/defaultgoods@2x.png",
+                "goodsname": "法国龙船小庄园750ml 2016年",
+                "price": "1343.25",
+                "originalprice": "2713.26",
+                "quanity": 2
+              }
+            ]
+          },
+          {
+            "orderNum": "125155154545",
+            "logisticsstate": "卖家已发货",
+            "status": 1,
+            "total": "5.20",
+            "goods": [
+              {
+                "goods_id": "1",
+                "goodsimage": "./images/defaultgoods@2x.png",
+                "goodsname": "法国龙船小庄园750ml 2016年",
+                "price": "1343.25",
+                "originalprice": "2713.26",
+                "quanity": 1
+              },
+              {
+                "goodsId": "1",
+                "goodsimage": "./images/defaultgoods@2x.png",
+                "goodsname": "法国龙船小庄园750ml 2016年",
+                "price": "1343.25",
+                "originalprice": "2713.26",
+                "quanity": 2
+              }
+            ]
+          }
+      ]
+  }
+}

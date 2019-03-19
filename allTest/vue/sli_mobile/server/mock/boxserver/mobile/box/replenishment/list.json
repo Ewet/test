@@ -1,0 +1,29 @@
+{
+    "data": {
+        "pagination": {
+            "cur_page": 1,
+            "page_size": 10,
+            "total_page": 6,
+            "record_count": 53,
+            "pre": 1,
+            "next": 2,
+            "start": 0,
+            "end": 10
+        },
+        "items": [
+            {
+                "replenishment_id": "332581475580854103",
+                "box_id": "322472692267211008",
+                "box_no": "PR1004",
+                "address": "广东省中山市",
+                "created_time": 1539157475,
+                "created_formatted": "2018-10-10 15:44:35",
+                "status": 10,
+                "user_id": "000"
+            }
+        ]
+    },
+    "success": true,
+    "message": "success",
+    "statusCode": 200
+}

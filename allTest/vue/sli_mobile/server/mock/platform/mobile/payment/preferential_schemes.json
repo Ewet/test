@@ -1,0 +1,12 @@
+{
+  "data": {
+    "user_id": "000",
+    "openid": "o9S2twHLWi1sZs9dyVrffQ1Yn6GE",
+    "is_logined": true,
+    "credit1": 10000,
+    "credit_to_money": 1.0
+  },
+  "success": true,
+  "message": "OK",
+  "statusCode": 200
+}
