@@ -1,9 +1,0 @@
-{
-  "success": true,
-  "statusCode": 200,
-  "message": "success",
-  "data": {
-    "is_login": true,
-    "openid": "o9S2twHLWi1sZs9dyVrffQ1Yn6GE"
-  }
-}

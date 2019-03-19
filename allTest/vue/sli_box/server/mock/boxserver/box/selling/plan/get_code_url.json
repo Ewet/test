@@ -1,8 +1,0 @@
-{
-  "data": {
-    "code_url": "http://192.168.1.126:8080/box/selling/plan/qr_code?goods_id=307244425709822157"
-  },
-  "success": true,
-  "message": "success",
-  "statusCode": 200
-}

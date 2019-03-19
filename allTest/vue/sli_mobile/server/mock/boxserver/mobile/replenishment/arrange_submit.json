@@ -1,6 +1,0 @@
-{
-  "success": false,
-  "message": "库存异常,进入理货异常页面",
-  "statusCode": 201,
-  "data": { "replenishment_id": "46545644484498" }
-}

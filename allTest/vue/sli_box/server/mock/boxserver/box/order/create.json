@@ -1,9 +1,0 @@
-{
-    "success": true,
-    "statusCode": 200,
-    "message": "success",
-    "data": {
-      "order_id": "43148137194781201432",
-      "order_sn": "190109-170000-341415"
-    }
-  }

@@ -1,9 +1,0 @@
-{
-  "data": {
-    "is_replenishman": true,
-    "is_purchasing_agent": true
-  },
-  "success": true,
-  "message": "success",
-  "statusCode": 200
-}
