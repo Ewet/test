@@ -1,0 +1,45 @@
+{
+    "data": {
+        "pagination": {
+            "cur_page": 1,
+            "page_size": 10,
+            "total_page": 3,
+            "record_count": 26,
+            "pre": 1,
+            "next": 2,
+            "start": 0,
+            "end": 10
+        },
+        "items": [{
+            "desc_file_url": null,
+            "goods_name": "0917测试编辑商品",
+            "created_time": 1537163851,
+            "updated_time": 1537169315,
+            "updated_time_formatted": "2018-09-17 15:28:35",
+            "goods_id": "330587851780405972",
+            "description": "商品描述",
+            "pic": [{
+                "pic_id": "330590967165697624",
+                "pic_url": "https://sili-pr.oss-cn-shenzhen.aliyuncs.com/330590967165697624"
+            }, {
+                "pic_id": "330591079607203683",
+                "pic_url": "https://sili-pr.oss-cn-shenzhen.aliyuncs.com/330591079607203683"
+            }],
+            "qr_code_url": "/box/goods/description/330587851780405972",
+            "distributor_id": "327902023998407215",
+            "created_time_formatted": "2018-09-17 13:57:31",
+            "market_price": 5.5,
+            "distributor_name": "登录渠道商",
+            "gcate_name": "葡萄汁",
+            "suggest_price": 6,
+            "cost": 3,
+            "desc_file_id": "",
+            "barcode": "456",
+            "gcate_id": "307445946486556095",
+            "status": 1
+        }]
+    },
+    "success": true,
+    "message": "success",
+    "statusCode": 200
+  }

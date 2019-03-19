@@ -1,0 +1,27 @@
+{
+  "data": {
+      "pagination": {   
+          "cur_page": 1,
+          "page_size": 10,
+          "total_page": 4,  
+          "record_count": 32,
+          "pre": 1,
+          "next": 2,
+          "start": 0,
+          "end": 10
+      },
+      "items": [
+          {
+            "name": "xxxxxxxxxxxxxxxxx",   
+            "box_no": "1",                  
+            "address": "***********",       
+            "layer_no": "1",               
+            "goods_name":"***",             
+            "quantity":"1"    
+          }
+      ]
+  },
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

@@ -1,0 +1,30 @@
+{
+  "data": {
+      "pagination": {
+          "cur_page": 1,
+          "page_size": 10,
+          "total_page": 14,
+          "record_count": 138,
+          "pre": 1,
+          "next": 2,
+          "start": 0,
+          "end": 10
+      },
+      "items": [
+          {   
+              "box_id":"121321321321",                 
+              "name": "广东思理智能科技有限公司",        
+              "box_no": "003",                            
+              "address": "中山市三乡金融中心7楼摩萄盒子", 
+              "is_online":0,
+              "is_online_formatted":"离线",             
+              "advert_quality": 15,                      
+              "status":0,
+              "status_formatted":"禁用"                  
+          }
+      ]
+  },
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

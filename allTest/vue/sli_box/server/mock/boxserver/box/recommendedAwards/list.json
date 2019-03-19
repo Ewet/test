@@ -1,0 +1,55 @@
+{
+  "data": {
+    "pagination": {  
+      "cur_page": 1,
+      "page_size": 10,
+      "total_page": 1,
+      "record_count": 1,
+      "pre": 1,
+      "next": 1,
+      "start": 0,
+      "end": 10
+    },
+    "items": [
+      {
+        "activity_id": "0001",
+        "activityName": "代购有奖活动1",
+        "activeState":"未进行",
+        "builtMan":"小刘",
+        "created_time":12313,
+        "created_time_formatted": "2018-06-15 11:05:22",
+        "activity_time":12313,
+        "activity_time_formatted": "2018-08-05 12:00:00",
+        "remaining_time":12313,
+        "remaining_time_formatted": "1天00:00:00"
+      },
+      {
+        "activity_id": "0002",
+        "activityName": "代购有奖活动2",
+        "activeState":"未进行",
+        "builtMan":"小明",
+        "created_time":12313,
+        "created_time_formatted": "2018-06-15 11:05:22",
+        "activity_time":12313,
+        "activity_time_formatted": "2018-08-05 12:00:00",
+        "remaining_time":12313,
+        "remaining_time_formatted": "1天00:00:00"
+      },
+      {
+        "activity_id": "0003",
+        "activityName": "代购有奖活动3",
+        "activeState":"未进行",
+        "builtMan":"小东",
+        "created_time":12313,
+        "created_time_formatted": "2018-06-15 11:05:22",
+        "activity_time":12313,
+        "activity_time_formatted": "2018-08-05 12:00:00",
+        "remaining_time":12313,
+        "remaining_time_formatted": "1天00:00:00"
+      }
+    ]
+  },
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

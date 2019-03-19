@@ -1,0 +1,18 @@
+{
+  "data": [{
+      "layer_id": "xxx",
+      "shelf_id": "xxx",
+      "layer_no": "xxx",
+      "number_of_cells": 12,
+      "box_id": "xxx"
+  }, {
+      "layer_id": "xxx",
+      "shelf_id": "xxx",
+      "layer_no": "xxx",
+      "number_of_cells": 12,
+      "box_id": "xxx"
+  }],
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

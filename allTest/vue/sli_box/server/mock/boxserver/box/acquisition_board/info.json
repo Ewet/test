@@ -1,0 +1,13 @@
+{
+  "data":  {
+     "acquisition_id": "001",
+      "mcb_id": "0001",
+      "acquisition_no": "N001",
+      "hw_version": "v2.2.6",
+      "created_time": 1534487583,
+      "created_time_formatted":"2018/10/15 11:24"
+  },
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

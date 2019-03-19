@@ -1,0 +1,21 @@
+{
+    "data":{
+        "dept_emp":[
+            {
+                "auth_department_id":"部门ID", 
+                "auth_department_name":"客服部", 
+                "emps":[ 
+                    {
+                        "admin_id":"1234",          
+                        "auth_department_name":"客服部",   
+                        "work_name":"客服一"        
+                    }
+                ]
+            }
+        ]
+    },
+    "success": true,
+    "message": "success",
+    "statusCode": 200
+    
+}

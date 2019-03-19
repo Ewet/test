@@ -1,0 +1,100 @@
+{
+    "data": {
+        "items": [
+            {
+                "rfid_no": "317026611845750006",
+                "goods_name": "花骑士红葡萄酒",
+                "checkin_time": "1452365245",
+                "checkin_time_formate": "2018-07-24 09:59:56",
+                "name": "小蛀"
+            },
+            {
+                "rfid_no": "317026611845750006",
+                "goods_name": "花骑士红葡萄酒",
+                "checkin_time": "1452365245",
+                "checkin_time_formate": "2018-07-24 09:59:56",
+                "name": "小蛀"
+            },
+            {
+                "rfid_no": "317026611845750006",
+                "goods_name": "花骑士红葡萄酒",
+                "checkin_time": "1452365245",
+                "checkin_time_formate": "2018-07-24 09:59:56",
+                "name": "小蛀"
+            },
+            {
+                "rfid_no": "317026611845750006",
+                "goods_name": "花骑士红葡萄酒",
+                "checkin_time": "1452365245",
+                "checkin_time_formate": "2018-07-24 09:59:56",
+                "name": "小蛀"
+            },
+            {
+                "rfid_no": "317026611845750006",
+                "goods_name": "花骑士红葡萄酒",
+                "checkin_time": "1452365245",
+                "checkin_time_formate": "2018-07-24 09:59:56",
+                "name": "小蛀"
+            },
+            {
+                "rfid_no": "317026611845750006",
+                "goods_name": "花骑士红葡萄酒",
+                "checkin_time": "1452365245",
+                "checkin_time_formate": "2018-07-24 09:59:56",
+                "name": "小蛀"
+            },
+            {
+                "rfid_no": "317026611845750006",
+                "goods_name": "花骑士红葡萄酒",
+                "checkin_time": "1452365245",
+                "checkin_time_formate": "2018-07-24 09:59:56",
+                "name": "小蛀"
+            },
+            {
+                "rfid_no": "317026611845750006",
+                "goods_name": "花骑士红葡萄酒",
+                "checkin_time": "1452365245",
+                "checkin_time_formate": "2018-07-24 09:59:56",
+                "name": "小蛀"
+            },
+            {
+                "rfid_no": "317026611845750006",
+                "goods_name": "花骑士红葡萄酒",
+                "checkin_time": "1452365245",
+                "checkin_time_formate": "2018-07-24 09:59:56",
+                "name": "小蛀"
+            },
+            {
+                "rfid_no": "317026611845750006",
+                "goods_name": "花骑士红葡萄酒",
+                "checkin_time": "1452365245",
+                "checkin_time_formate": "2018-07-24 09:59:56",
+                "name": "小蛀"
+            },
+            {
+                "rfid_no": "317026611845750006",
+                "goods_name": "花骑士红葡萄酒",
+                "checkin_time": "1452365245",
+                "checkin_time_formate": "2018-07-24 09:59:56",
+                "name": "小蛀"
+            },
+            {
+                "rfid_no": "317026611845750006",
+                "goods_name": "花骑士红葡萄酒",
+                "checkin_time": "1452365245",
+                "checkin_time_formate": "2018-07-24 09:59:56",
+                "name": "小蛀"
+            },
+            {
+                "rfid_no": "317026611845750006",
+                "goods_name": "花骑士红葡萄酒",
+                "checkin_time": "1452365245",
+                "checkin_time_formate": "2018-07-24 09:59:56",
+                "name": "end"
+            }
+    ]
+    },
+    "success": true,
+    "message": "success",
+    "statusCode": 200
+}

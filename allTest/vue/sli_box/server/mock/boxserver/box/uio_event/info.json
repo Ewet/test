@@ -1,0 +1,291 @@
+{
+  "data": {
+    "box_id": "327637369824352212",
+    "emergency_press": 0,
+    "entry_time": 1534733663,
+    "serials": "153473366367540778",
+    "create_time": 1534733723,
+    "opendoor_press": 1,
+    "changed_sensors_format": [{
+      "layer_no": "01",
+      "before": 1,
+      "cell_no": "01",
+      "row_no": "1",
+      "after": 1
+    }, {
+      "layer_no": "01",
+      "before": 1,
+      "cell_no": "03",
+      "row_no": "1",
+      "after": 0
+    }, {
+      "layer_no": "01",
+      "before": 1,
+      "cell_no": "02",
+      "row_no": "1",
+      "after": 1
+    }, {
+      "layer_no": "02",
+      "before": 1,
+      "cell_no": "05",
+      "row_no": "1",
+      "after": 1
+    }, {
+      "layer_no": "02",
+      "before": 0,
+      "cell_no": "04",
+      "row_no": "1",
+      "after": 0
+    }],
+    "file_list": [{
+      "details": [{
+        "file_url": "https://sili-pr-sec-image.oss-cn-shenzhen.aliyuncs.com/snapshot_0826_1534733670_1",
+        "event_id": "328157723799132652",
+        "correlation_time_formatted": "2018-08-20 10:54:30",
+        "file_id": "snapshot_0826_1534733670_1",
+        "correlation_time": 1534733670
+      }, {
+        "file_url": "https://sili-pr-sec-image.oss-cn-shenzhen.aliyuncs.com/snapshot_5949_1534733719_1",
+        "event_id": "328157723799132652",
+        "correlation_time_formatted": "2018-08-20 10:55:19",
+        "file_id": "snapshot_5949_1534733719_1",
+        "correlation_time": 1534733719
+      }, {
+        "file_url": "https://sili-pr-sec-image.oss-cn-shenzhen.aliyuncs.com/snapshot_6375_1534733667_1",
+        "event_id": "328157723799132652",
+        "correlation_time_formatted": "2018-08-20 10:54:27",
+        "file_id": "snapshot_6375_1534733667_1",
+        "correlation_time": 1534733667
+      }, {
+        "file_url": "https://sili-pr-sec-image.oss-cn-shenzhen.aliyuncs.com/snapshot_7469_1534733723_1",
+        "event_id": "328157723799132652",
+        "correlation_time_formatted": "2018-08-20 10:55:23",
+        "file_id": "snapshot_7469_1534733723_1",
+        "correlation_time": 1534733723
+      }],
+      "camera": "1"
+    }, {
+      "details": [{
+        "file_url": "https://sili-pr-sec-image.oss-cn-shenzhen.aliyuncs.com/snapshot_1894_1534733719_2",
+        "event_id": "328157723799132652",
+        "correlation_time_formatted": "2018-08-20 10:55:19",
+        "file_id": "snapshot_1894_1534733719_2",
+        "correlation_time": 1534733719
+      }, {
+        "file_url": "https://sili-pr-sec-image.oss-cn-shenzhen.aliyuncs.com/snapshot_1939_1534733723_2",
+        "event_id": "328157723799132652",
+        "correlation_time_formatted": "2018-08-20 10:55:23",
+        "file_id": "snapshot_1939_1534733723_2",
+        "correlation_time": 1534733723
+      }, {
+        "file_url": "https://sili-pr-sec-image.oss-cn-shenzhen.aliyuncs.com/snapshot_2456_1534733667_2",
+        "event_id": "328157723799132652",
+        "correlation_time_formatted": "2018-08-20 10:54:27",
+        "file_id": "snapshot_2456_1534733667_2",
+        "correlation_time": 1534733667
+      }, {
+        "file_url": "https://sili-pr-sec-image.oss-cn-shenzhen.aliyuncs.com/snapshot_6661_1534733670_2",
+        "event_id": "328157723799132652",
+        "correlation_time_formatted": "2018-08-20 10:54:30",
+        "file_id": "snapshot_6661_1534733670_2",
+        "correlation_time": 1534733670
+      }],
+      "camera": "2"
+    }, {
+      "details": [{
+        "file_url": "https://sili-pr-sec-image.oss-cn-shenzhen.aliyuncs.com/snapshot_5436_1534733670_3",
+        "event_id": "328157723799132652",
+        "correlation_time_formatted": "2018-08-20 10:54:30",
+        "file_id": "snapshot_5436_1534733670_3",
+        "correlation_time": 1534733670
+      }, {
+        "file_url": "https://sili-pr-sec-image.oss-cn-shenzhen.aliyuncs.com/snapshot_5777_1534733667_3",
+        "event_id": "328157723799132652",
+        "correlation_time_formatted": "2018-08-20 10:54:27",
+        "file_id": "snapshot_5777_1534733667_3",
+        "correlation_time": 1534733667
+      }, {
+        "file_url": "https://sili-pr-sec-image.oss-cn-shenzhen.aliyuncs.com/snapshot_6003_1534733719_3",
+        "event_id": "328157723799132652",
+        "correlation_time_formatted": "2018-08-20 10:55:19",
+        "file_id": "snapshot_6003_1534733719_3",
+        "correlation_time": 1534733719
+      }, {
+        "file_url": "https://sili-pr-sec-image.oss-cn-shenzhen.aliyuncs.com/snapshot_7126_1534733723_3",
+        "event_id": "328157723799132652",
+        "correlation_time_formatted": "2018-08-20 10:55:23",
+        "file_id": "snapshot_7126_1534733723_3",
+        "correlation_time": 1534733723
+      }],
+      "camera": "3"
+    }, {
+      "details": [{
+        "file_url": "https://sili-pr-sec-image.oss-cn-shenzhen.aliyuncs.com/snapshot_1288_1534733723_4",
+        "event_id": "328157723799132652",
+        "correlation_time_formatted": "2018-08-20 10:55:23",
+        "file_id": "snapshot_1288_1534733723_4",
+        "correlation_time": 1534733723
+      }, {
+        "file_url": "https://sili-pr-sec-image.oss-cn-shenzhen.aliyuncs.com/snapshot_2334_1534733667_4",
+        "event_id": "328157723799132652",
+        "correlation_time_formatted": "2018-08-20 10:54:27",
+        "file_id": "snapshot_2334_1534733667_4",
+        "correlation_time": 1534733667
+      }, {
+        "file_url": "https://sili-pr-sec-image.oss-cn-shenzhen.aliyuncs.com/snapshot_4510_1534733670_4",
+        "event_id": "328157723799132652",
+        "correlation_time_formatted": "2018-08-20 10:54:30",
+        "file_id": "snapshot_4510_1534733670_4",
+        "correlation_time": 1534733670
+      }, {
+        "file_url": "https://sili-pr-sec-image.oss-cn-shenzhen.aliyuncs.com/snapshot_7488_1534733719_4",
+        "event_id": "328157723799132652",
+        "correlation_time_formatted": "2018-08-20 10:55:19",
+        "file_id": "snapshot_7488_1534733719_4",
+        "correlation_time": 1534733719
+      }],
+      "camera": "4"
+    }, {
+      "details": [{
+        "file_url": "https://sili-pr-sec-image.oss-cn-shenzhen.aliyuncs.com/snapshot_1288_1534733723_4",
+        "event_id": "328157723799132652",
+        "correlation_time_formatted": "2018-08-20 10:55:23",
+        "file_id": "snapshot_1288_1534733723_4",
+        "correlation_time": 1534733723
+      }, {
+        "file_url": "https://sili-pr-sec-image.oss-cn-shenzhen.aliyuncs.com/snapshot_2334_1534733667_4",
+        "event_id": "328157723799132652",
+        "correlation_time_formatted": "2018-08-20 10:54:27",
+        "file_id": "snapshot_2334_1534733667_4",
+        "correlation_time": 1534733667
+      }, 
+      {
+        "file_url": "https://sili-pr-sec-image.oss-cn-shenzhen.aliyuncs.com/snapshot_4510_1534733670_4",
+        "event_id": "328157723799132652",
+        "correlation_time_formatted": "2018-08-20 10:54:30",
+        "file_id": "snapshot_4510_1534733670_4",
+        "correlation_time": 1534733670
+      },
+      {
+        "file_url": "https://sili-pr-sec-image.oss-cn-shenzhen.aliyuncs.com/snapshot_4510_1534733670_4",
+        "event_id": "328157723799132652",
+        "correlation_time_formatted": "2018-08-20 10:54:30",
+        "file_id": "snapshot_4510_1534733670_4",
+        "correlation_time": 1534733670
+      },
+      {
+        "file_url": "https://sili-pr-sec-image.oss-cn-shenzhen.aliyuncs.com/snapshot_4510_1534733670_4",
+        "event_id": "328157723799132652",
+        "correlation_time_formatted": "2018-08-20 10:54:30",
+        "file_id": "snapshot_4510_1534733670_4",
+        "correlation_time": 1534733670
+      },
+       {
+        "file_url": "https://sili-pr-sec-image.oss-cn-shenzhen.aliyuncs.com/snapshot_7488_1534733719_4",
+        "event_id": "328157723799132652",
+        "correlation_time_formatted": "2018-08-20 10:55:19",
+        "file_id": "snapshot_7488_1534733719_4",
+        "correlation_time": 1534733719
+      }],
+      "camera": "5"
+    }],
+    "remark": null,
+    "box": {
+      "box_id": "327637369824352212",
+      "created_time": 1534213369,
+      "updated_time": 1534734305,
+      "address": "",
+      "updated_time_formatted": "2018-08-20 11:05:05",
+      "lng": 113.4429359436000000,
+      "in_maintenance": 0,
+      "merchant_id": "319088970860269142",
+      "created_time_formatted": "2018-08-14 10:22:49",
+      "installed_time_formatted": "2018-08-14 10:22:49",
+      "box_no": "No9527",
+      "installed_time": 1534213369,
+      "lat": 22.3638798075820000,
+      "status": 1
+    },
+    "changed_sensors": "{\"010101\":[1,1],\"010103\":[1,0],\"010102\":[1,1],\"010105\":[1,1],\"010104\":[0,0]}",
+    "create_time_formatted": "2018-08-20 10:55:23",
+    "event_id": "328157723799132652",
+    "sensors": "{\"010101\":\"1\",\"010103\":\"0\",\"010102\":\"1\",\"010105\":\"1\",\"010104\":\"0\",\"010107\":\"1\",\"010106\":\"1\",\"010108\":\"1\"}",
+    "entry_time_formatted": "2018-08-20 10:54:23",
+    "report_time": 1534733722,
+    "user_id": "320984257022301148",
+    "report_time_formatted": "2018-08-20 10:55:22",
+    "departure_time": 1534733722,
+    "order_list": [{
+      "order_type_formatted": "普通订单",
+      "points_deduction": 0,
+      "create_by": "320984257022301148",
+      "pay_status": "45",
+      "update_time": 1534733710,
+      "create_time_formatted": "2018-08-20 10:54:59",
+      "update_time_formatted": "2018-08-20 10:55:10",
+      "coupon_deduction": 0,
+      "real_receive": 0,
+      "refund_money": 0,
+      "store_name": "No9527",
+      "app_id": "3",
+      "order_type": "1",
+      "commission_calculation_formatted": "已处理",
+      "store_id": "327637369824352212",
+      "commission_calculation": "1",
+      "points_use": 0,
+      "signature_ver": 0,
+      "create_time": 1534733699,
+      "random_deduction": 20,
+      "ship_status_formatted": "已完成",
+      "pay_time_formatted": "2018-08-20 10:55:05",
+      "pay_time": 1534733705,
+      "ship_fee": 0,
+      "ship_status": "41",
+      "pay_mode_formatted": "账户余额",
+      "pay_mode": "balance",
+      "out_trade_no": null,
+      "user_id": "320984257022301148",
+      "order_total": 20,
+      "will_receive": 20,
+      "pay_status_formatted": "已完成",
+      "order_id": "328157699264387043",
+      "order_sn": "180820-105459-282888"
+    }],
+    "user": {
+      "gender": "1",
+      "mobile": "13680273501",
+      "avatar": "http://thirdwx.qlogo.cn/mmopen/Wc1lQWTmNWqPmhPQMR7KgNBEjxPrM6ZrzsIoY94WfpvuLl0o8MfgDF2VbsPfiaco59LwyPjeOmWGPcUYr4luY2NVjDD3KKMTw/132",
+      "status_formatted": "正常",
+      "trader_qrcode": null,
+      "realname": null,
+      "user_id": "320984257022301148",
+      "credit1": 4890,
+      "nickname": "刘定坚",
+      "invite_code": "IDACSZCYHZ",
+      "gender_formatted": "男",
+      "email": null,
+      "status": "1",
+      "has_finish_order": 0
+    },
+    "departure_time_formatted": "2018-08-20 10:55:22",
+    "remarkList": [{
+      "remark_id": "xxxxx",
+      "event_id": "xxxxxx",
+      "user_id": "xxxxxxx",
+      "remark": "xxxxxxxxxxxxxxxxx",
+      "create_time": 1331313133,
+      "create_time_formatted": "1999-11-11 11:11:11",
+      "work_name": "超级飞侠"
+    }],
+    "inventory_logList": [{
+        "layer_no": "xxxxx",
+        "from": 111,
+        "to": 100,
+        "created": 111111,
+        "created_formatted": "1999-11-11 11:11:11"
+    }]
+  },
+  "success": true,
+  "message": "OK",
+  "statusCode": 200
+}

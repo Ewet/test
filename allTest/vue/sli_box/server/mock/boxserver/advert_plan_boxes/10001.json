@@ -1,0 +1,25 @@
+{
+    "data": {
+        "items": [
+            {   
+                "box_advert_plan__id":"10002",     
+                "advert_merchants_name":"三乡酒家",             
+                "advert_name":"庆元旦双节大优惠",              
+                "start_day":1527046850,
+                "start_day_formatted":"2018-09-17",    
+                "end_day":1527046850,
+                "end_day_formatted":"2028-12-17",      
+                "start_time":1527046850,
+                "start_time_formatted":"10:18:15",   
+                "end_time":1527046850,
+                "end_time_formatted":"15:28:35",     
+                "advert_plan_count":10,                         
+                "notes":"大客户"                               
+            }
+        ]
+        
+    },
+    "success": true,
+    "message": "success",
+    "statusCode": 200
+}

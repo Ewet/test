@@ -1,0 +1,34 @@
+{
+    "data": {
+        "pagination": {
+            "cur_page": 1,
+            "page_size": 10,
+            "total_page": 13,
+            "record_count": 12,
+            "pre": 1,
+            "next": 2,
+            "start": 0,
+            "end": 10
+        },
+        "items": [
+          {
+            "name": "测试商户1", 
+            "paid_time_formatted": "xxx", 
+            "box_no": "NO00001", 
+            "order_total": 12800, 
+            "net_receipts": 12, 
+            "amounttocost": 123,     
+            "maori": 123, 
+            "gross_margin": 123
+          }
+        ],
+        "order_total_total": 12800,
+        "net_receipts_total": 12,
+        "amounttocost_total": 123,
+        "maori_total": 123,
+        "gross_margin_toatl": 123
+    },
+    "success": true,
+    "message": "success",
+    "statusCode": 200
+}

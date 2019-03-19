@@ -1,0 +1,17 @@
+{
+  "data": {
+      "account_number": "15016340953",
+      "legal_person": "admin",
+      "address": "中山三乡",
+      "create_time_fromat": "2018-08-17 11:53",
+      "create_time": 1534478023,
+      "mobile": "15016340953",
+      "name": "root",
+      "merchant_name": "登录渠道商",
+      "goods_type": "红酒",
+      "merchant_id": "327902023998407215"
+  },
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

@@ -1,0 +1,14 @@
+{
+  "data":  {
+    "workNo": null,
+    "auth_department_id": null,
+    "loginId": "123456",
+    "phone": "123456",
+    "id": "29FA2F04531947BA8BFE2F0C42C7990F",
+    "position": null,
+    "workName": "员工02"
+  },
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

@@ -1,0 +1,18 @@
+{
+  "data": {
+      "box_id": "111",                           
+             "client_main": "clientMain",           
+             "client_main_version": "v1.0.5",             
+             "client_monitor": "clientMonitor",         
+             "client_monitor_version": "v1.0.4",          
+             "client_adv": "clientAdv",               
+             "client_adv_version": "v1.0.3",               
+             "clent_daemon": "clentDaemon",            
+             "clent_daemon_version": "v1.0.2",            
+             "hardware": "hardware",                    
+             "hardware_version": "v1.0.0"                 
+  },
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

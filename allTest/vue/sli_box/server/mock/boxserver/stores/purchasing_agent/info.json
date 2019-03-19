@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "message": "success",
+  "statusCode": 200,
+  "data":{
+       "id":10001,
+        "created_time": 1537323647,
+        "updated_time": 1537336073,
+        "user_id": "330747645319376432",
+        "created_time_fromat": "2018-09-19 10:20:47",
+        "updated_time_fromat": "2018-09-19 13:47:53",
+        "name": "小刘",
+        "mobile": "1388888888888",
+        "wxuser_id": "322457629504332189",
+        "nickname":"AAASSSS",
+        "merchant":"中山三乡XX酒店公司",
+        "merchant_id":"xxxx",
+        "items": [
+          {   
+            "merchant_name": "三乡酒店1",  
+            "box_no": "N100001",
+            "id":"100001"
+          },
+          {   
+            "merchant_name": "三乡酒店2",  
+            "box_no": "N100002",
+            "id":"100002"
+          }
+        ]
+      }
+  
+}

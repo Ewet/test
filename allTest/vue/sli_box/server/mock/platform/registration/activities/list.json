@@ -1,0 +1,63 @@
+
+ {
+  "success": true,
+  "message": "success",
+  "statusCode": 200,
+  "data": {
+    "items": [
+      {
+        "activity_id":"001",
+        "created_time":11111,           
+        "created_time_format":"2018-06-15 11:05:22",
+        "activity_name":"代购有奖活动",         
+        "start_time":11111,             
+        "start_time_format":"2018-07-11 11:05:22", 
+        "end_time":11111,               
+        "end_time_format":"2018-09-19 11:05:22",   
+        "status":0,                    
+        "status_format":"待开始",  
+        "created_by":"李四", 
+        "nickname":"1111",         
+        "remaining_time_format":"一天 0:0:0:0"
+        },
+        {
+          "activity_id":"002",
+          "created_time":11111,           
+          "created_time_format":"2018-06-15 11:05:22",
+          "activity_name":"代购有奖活动",         
+          "start_time":11111,             
+          "start_time_format":"2018-07-11 11:05:22", 
+          "end_time":11111,               
+          "end_time_format":"2018-09-19 11:05:22",   
+          "status":10,                    
+          "status_format":"进行中",  
+          "created_by":"李四",     
+          "nickname":"2222",         
+          "remaining_time_format":"一天 0:0:0:0"
+          },
+          {
+            "activity_id":"003",
+            "created_time":11111,           
+            "created_time_format":"2018-06-15 11:05:22",
+            "activity_name":"代购有奖活动",         
+            "start_time":11111,             
+            "start_time_format":"2018-07-11 11:05:22", 
+            "end_time":11111,               
+            "end_time_format":"2018-09-19 11:05:22",   
+            "status":20,                    
+            "status_format":"已结束",  
+            "created_by":"李四",   
+            "nickname":"3333",           
+            "remaining_time_format":"一天 0:0:0:0"
+            }
+    ], 
+    "pagination": {
+        "total_page":10,
+        "page_size":10,
+        "cur_page": 5,
+        "record_count": 100,
+        "pre": 4,
+        "next": 6
+    }
+  }
+}

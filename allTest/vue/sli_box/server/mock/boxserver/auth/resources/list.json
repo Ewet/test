@@ -1,0 +1,390 @@
+{
+  "data": [
+    {
+      "resUrl": "/index",
+      "notes": "一级目录01",
+      "routerName": null,
+      "children": [
+        {
+          "resUrl": "/index",
+          "notes": "二级目录02",
+          "routerName": null,
+          "children": [
+            {
+              "resUrl": "/index",
+              "notes": "三级目录03",
+              "routerName": "GoodsCategory",
+              "children": [],
+              "name": "商品分类",
+              "fatherId": "0101",
+              "id": "010101"
+            },
+            {
+              "resUrl": "/index",
+              "notes": "三级目录03",
+              "routerName": "Goods",
+              "children": [],
+              "name": "商品列表",
+              "fatherId": "0101",
+              "id": "010102"
+            }
+          ],
+          "name": "商品管理",
+          "fatherId": "01",
+          "id": "0101"
+        },
+        {
+          "resUrl": "/index",
+          "notes": "二级目录02",
+          "routerName": null,
+          "children": [
+            {
+              "resUrl": "/index",
+              "notes": "三级目录03",
+              "routerName": "SalesPlan",
+              "children": [],
+              "name": "销售计划",
+              "fatherId": "0102",
+              "id": "010201"
+            },
+            {
+              "resUrl": "/index",
+              "notes": "三级目录03",
+              "routerName": "Order",
+              "children": [],
+              "name": "订单列表",
+              "fatherId": "0102",
+              "id": "010202"
+            },
+            {
+              "resUrl": "/iindex",
+              "notes": "三级目录03",
+              "routerName": "Invoice",
+              "children": [],
+              "name": "发票列表",
+              "fatherId": "0102",
+              "id": "010203"
+            }
+          ],
+          "name": "销售管理",
+          "fatherId": "01",
+          "id": "0102"
+        },
+        {
+          "resUrl": "/index",
+          "notes": "二级目录02",
+          "routerName": null,
+          "children": [
+            {
+              "resUrl": "",
+              "notes": "三级目录03",
+              "routerName": "PendingRefund",
+              "children": [],
+              "name": "待退款",
+              "fatherId": "0103",
+              "id": "010301"
+            },
+            {
+              "resUrl": "",
+              "notes": "三级目录03",
+              "routerName": "PendingReview",
+              "children": [],
+              "name": "待复核",
+              "fatherId": "0103",
+              "id": "010302"
+            },
+            {
+              "resUrl": "",
+              "notes": "三级目录03",
+              "routerName": "PendingInspection",
+              "children": [],
+              "name": "待验货",
+              "fatherId": "0103",
+              "id": "010303"
+            },
+            {
+              "resUrl": "",
+              "notes": "三级目录03",
+              "routerName": "PendingConfirmed",
+              "children": [],
+              "name": "待确认",
+              "fatherId": "0103",
+              "id": "010304"
+            },
+            {
+              "resUrl": "",
+              "notes": "三级目录03",
+              "routerName": "ReturnInquiry",
+              "children": [],
+              "name": "退货查询",
+              "fatherId": "0103",
+              "id": "010305"
+            }
+          ],
+          "name": "退货退款",
+          "fatherId": "01",
+          "id": "0103"
+        },
+        {
+          "resUrl": "/index",
+          "notes": "二级目录02",
+          "routerName": null,
+          "children": [
+            {
+              "resUrl": "/index",
+              "notes": "三级目录03",
+              "routerName": "Replenishment",
+              "children": [],
+              "name": "补货记录",
+              "fatherId": "0104",
+              "id": "010401"
+            },
+            {
+              "resUrl": "/index",
+              "notes": "三级目录03",
+              "routerName": "InventoryChange",
+              "children": [],
+              "name": "库存变动记录",
+              "fatherId": "0104",
+              "id": "010402"
+            }
+          ],
+          "name": "库存管理",
+          "fatherId": "01",
+          "id": "0104"
+        }
+      ],
+      "name": "营销管理",
+      "fatherId": null,
+      "id": "01"
+    },
+    {
+      "resUrl": "/index",
+      "notes": "一级目录01",
+      "routerName": null,
+      "children": [
+        {
+          "resUrl": "/index",
+          "notes": "二级目录02",
+          "routerName": null,
+          "children": [
+            {
+              "resUrl": "/index",
+              "notes": "三级目录03",
+              "routerName": "SalesReport",
+              "children": [],
+              "name": "销售报表",
+              "fatherId": "0201",
+              "id": "020101"
+            }
+          ],
+          "name": "销售统计",
+          "fatherId": "02",
+          "id": "0201"
+        },
+        {
+          "resUrl": "/index",
+          "notes": "二级目录02",
+          "routerName": null,
+          "children": [
+            {
+              "resUrl": "/index",
+              "notes": "三级目录03",
+              "routerName": "StockingReport",
+              "children": [],
+              "name": "备货报表 ",
+              "fatherId": "0202",
+              "id": "020201"
+            },
+            {
+              "resUrl": "/index",
+              "notes": "三级目录03",
+              "routerName": "ReplenishmentReport",
+              "children": [],
+              "name": "补货报表",
+              "fatherId": "0202",
+              "id": "020202"
+            }
+          ],
+          "name": "库存统计",
+          "fatherId": "02",
+          "id": "0202"
+        }
+      ],
+      "name": "报表管理",
+      "fatherId": null,
+      "id": "02"
+    },
+    {
+      "resUrl": "/index",
+      "notes": "一级目录01",
+      "routerName": null,
+      "children": [
+        {
+          "resUrl": "/index",
+          "notes": "二级目录02",
+          "routerName": null,
+          "children": [
+            {
+              "resUrl": "/index",
+              "notes": "三级目录03",
+              "routerName": "Replenisher",
+              "children": [],
+              "name": "补货员列表",
+              "fatherId": "0301",
+              "id": "030101"
+            }
+          ],
+          "name": "补货员管理",
+          "fatherId": "03",
+          "id": "0301"
+        },
+        {
+          "resUrl": "/index",
+          "notes": "二级目录02",
+          "routerName": null,
+          "children": [
+            {
+              "resUrl": "/index",
+              "notes": "三级目录03",
+              "routerName": "Member",
+              "children": [],
+              "name": "会员列表",
+              "fatherId": "0302",
+              "id": "030201"
+            }
+          ],
+          "name": "会员管理",
+          "fatherId": "03",
+          "id": "0302"
+        }
+      ],
+      "name": "人员管理",
+      "fatherId": null,
+      "id": "03"
+    },
+    {
+      "resUrl": "/index",
+      "notes": "一级目录01",
+      "routerName": null,
+      "children": [
+        {
+          "resUrl": "/index",
+          "notes": "二级目录02",
+          "routerName": null,
+          "children": [
+            {
+              "resUrl": "/index",
+              "notes": "三级目录03",
+              "routerName": "BoxManagement",
+              "children": [],
+              "name": "盒子管理",
+              "fatherId": "0401",
+              "id": "040101"
+            },
+            {
+              "resUrl": "/index",
+              "notes": "三级目录03",
+              "routerName": "MerchantManagement",
+              "children": [],
+              "name": "商户管理",
+              "fatherId": "0401",
+              "id": "040102"
+            },
+            {
+              "resUrl": "",
+              "notes": "三级目录03",
+              "routerName": "ChannelManagement",
+              "children": [],
+              "name": "渠道商管理",
+              "fatherId": "0401",
+              "id": "040103"
+            },
+            {
+              "resUrl": "",
+              "notes": "三级目录03",
+              "routerName": "RegionalManagement",
+              "children": [],
+              "name": "地区管理",
+              "fatherId": "0401",
+              "id": "040104"
+            }
+          ],
+          "name": "基本资料",
+          "fatherId": "04",
+          "id": "0401"
+        },
+        {
+          "resUrl": "/index",
+          "notes": "二级目录02",
+          "routerName": null,
+          "children": [
+            {
+              "resUrl": "/index",
+              "notes": "三级目录03",
+              "routerName": "RealTimeStatus",
+              "children": [],
+              "name": "实时状态",
+              "fatherId": "0402",
+              "id": "040201"
+            },
+            {
+              "resUrl": "",
+              "notes": "三级目录03",
+              "routerName": "Monitor",
+              "children": [],
+              "name": "防盗监控",
+              "fatherId": "0402",
+              "id": "040202"
+            },
+            {
+              "resUrl": "/index",
+              "notes": "三级目录03",
+              "routerName": "BoxEvent",
+              "children": [],
+              "name": "盒子事件",
+              "fatherId": "0402",
+              "id": "040203"
+            }
+          ],
+          "name": "盒子监控",
+          "fatherId": "04",
+          "id": "0402"
+        },
+        {
+          "resUrl": "",
+          "notes": "二级目录02",
+          "routerName": "RoleManagement",
+          "children": [],
+          "name": "角色管理",
+          "fatherId": "04",
+          "id": "0403"
+        },
+        {
+          "resUrl": "",
+          "notes": "二级目录02",
+          "routerName": "DepartmentManagement",
+          "children": [],
+          "name": "部门管理",
+          "fatherId": "04",
+          "id": "0404"
+        },
+        {
+          "resUrl": "",
+          "notes": "二级目录02",
+          "routerName": "EmployeeManagement",
+          "children": [],
+          "name": "员工管理",
+          "fatherId": "04",
+          "id": "0405"
+        }
+      ],
+      "name": "系统管理",
+      "fatherId": null,
+      "id": "04"
+    }
+  ],
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

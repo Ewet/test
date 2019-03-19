@@ -1,0 +1,13 @@
+const router = require('koa-router')();
+const order = require('./order');
+const rule = require('./rule');
+const config = require('./config');
+const withdraw = require('./withdraw');
+const trader = require('./trader');
+router.prefix('/distribution');
+router.use(order.routes(), order.allowedMethods());
+router.use(rule.routes(), rule.allowedMethods());
+router.use(config.routes(), config.allowedMethods());
+router.use(withdraw.routes(), withdraw.allowedMethods());
+router.use(trader.routes(), trader.allowedMethods());
+module.exports = router;

@@ -1,0 +1,25 @@
+{
+  "children": [{
+      "children": [{
+        "routerName": "Replenisher",
+        "name": "补货员列表"
+      }],
+      "routerName": "",
+      "name": "补货员管理"
+    },
+    {
+      "children": [{
+        "routerName": "Member",
+        "name": "会员列表"
+      },
+      {
+        "name": "会员类型列表",
+        "routerName": "MemberType"
+      }],
+      "routerName": "",
+      "name": "会员管理"
+    }
+  ],
+  "routerName": "personnel.html",
+  "name": "人员管理"
+}

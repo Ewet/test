@@ -1,0 +1,16 @@
+{
+  "data": {
+    "created_time": 1541810957,  
+    "contact_name": "11",                
+    "legal_person": "11",                
+    "address": "中山",                     
+    "contact_phone": "11",                 
+    "operator_id": "335234957303847454",  
+    "name": "三乡",                        
+    "created_time_formatted": "2018-11-10 08:49:17", 
+    "operator_no": "创建运营商"            
+  },
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

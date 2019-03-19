@@ -1,0 +1,35 @@
+{
+    "data": {
+        "box_id": "",
+        "layer": [{
+            "layer_id": "001",
+            "layer_no": "xxx",
+            "number_of_cells": 12,
+            "channel": [{
+                "channel_no": "xxx",
+                "channel_id": "xxxx",
+                "blocked_level": 1
+            }, {
+                "channel_no": "xxx",
+                "channel_id": "xxxx",
+                "blocked_level": 1
+            }]
+        }, {
+            "layer_id": "001",
+            "layer_no": "xxx",
+            "number_of_cells": 12,
+            "channel": [{
+                "channel_no": "xxx",
+                "channel_id": "xxxx",
+                "blocked_level": 1
+            }, {
+                "channel_no": "xxx",
+                "channel_id": "xxxx",
+                "blocked_level": 1
+            }]
+        }]
+    },
+    "success": true,
+    "message": "success",
+    "statusCode": 200
+}

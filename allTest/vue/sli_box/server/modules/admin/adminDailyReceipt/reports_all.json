@@ -1,0 +1,31 @@
+{
+    "data": {
+        "pagination": {
+            "cur_page": 1,
+            "page_size": 10,
+            "total_page": 103,
+            "record_count": 1022,
+            "pre": 1,
+            "next": 2,
+            "start": 0,
+            "end": 10
+        },
+        "items": [{
+            "merchant_id": "181563",
+            "box_id": "123456456",
+            "name": "测试商户1",
+            "box_no": 123454515,
+            "coupon_deduction": 123,
+            "random_deduction": 45,
+            "refunded_total": 123,
+            "real_receive": 123,
+            "paid_time": 1527587374,
+            "paid_time_formatted": "2018-05-29 17:49:34",
+            "operator_id": "****",
+            "operator_no": "*****"
+        }]
+    },
+    "success": true,
+    "message": "success",
+    "statusCode": 200
+}

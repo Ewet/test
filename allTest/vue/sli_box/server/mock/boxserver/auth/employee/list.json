@@ -1,0 +1,63 @@
+{
+  "data": {
+    "pagination": {
+      "cur_page": 1,
+      "page_size": 10,
+      "total_page": 1,
+      "record_count": 3,
+      "pre": 1,
+      "next": 1,
+      "start": 0,
+      "end": 10
+    },
+    "items": [{
+      "auth_department_id": "35EB67E7E15C4C118172381858AA51CA",
+      "work_name": null,
+      "create_time": 1536108028,
+      "admin_id": "329470979447668314",
+      "work_no": null,
+      "mobile": null,
+      "name": "admin",
+      "roleName": "superman,超级管理员",
+      "created_time_formatted": "2018-09-05 08:40:28",
+      "position": null,
+      "authList": [{
+        "areaList": [],
+        "roleName": "超级管理员"
+      }, {
+        "areaList": ["中山五桂山", "中山三乡", "珠海拱北"],
+        "roleName": "superman"
+      }],
+      "auth_department_name": null
+    }, {
+      "auth_department_id": null,
+      "work_name": null,
+      "create_time": null,
+      "admin_id": "329470979447668388",
+      "work_no": null,
+      "mobile": null,
+      "name": "test",
+      "roleName": null,
+      "created_time_formatted": null,
+      "position": null,
+      "authList": [],
+      "auth_department_name": null
+    }, {
+      "auth_department_id": null,
+      "work_name": null,
+      "create_time": 1536108028,
+      "admin_id": "329532017030393135",
+      "work_no": null,
+      "mobile": "123456",
+      "name": "login",
+      "roleName": null,
+      "created_time_formatted": "2018-09-05 08:40:28",
+      "position": null,
+      "authList": [],
+      "auth_department_name": null
+    }]
+  },
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

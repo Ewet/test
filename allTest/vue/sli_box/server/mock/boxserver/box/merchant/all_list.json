@@ -1,0 +1,13 @@
+{
+  "data": {
+    "items": [
+      {
+        "merchant_id": "333940623695219412",
+        "name": "三十三所属"
+      }
+    ]
+  },
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

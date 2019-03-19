@@ -1,0 +1,40 @@
+{
+  "data": {
+      "pagination": {   
+          "cur_page": 1,
+          "page_size": 10,
+          "total_page": 4,  
+          "record_count": 32,
+          "pre": 1,
+          "next": 2,
+          "start": 0,
+          "end": 10
+      },
+      "items": [
+          {   
+              "name": "xxx",  
+              "box_id": "xxx",  
+              "created_time": "xxx",  
+              "created_time_formatted":"xxx",
+              "order_sn": "xxx", 
+              "goods_name": "xx", 
+              "quantity": 1,
+              "goods_price": "xxx",
+              "net_receipts":15,
+              "invoice_no":"123",
+              "title_name": "张三",
+              "title_type":1,
+              "wd_invoice_title_type":"个人",
+              "status":20,
+              "invoice_status":"开票成功",
+              "handled_time":"xxx",
+              "handled_time_formatted":"xxx",
+              "wd_invoice_status":"开票成功"
+          
+          }
+      ]
+  },
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

@@ -1,0 +1,13 @@
+{
+    "data": {
+        "interval": 200,
+        "timeout": 180,
+        "planning": 900,
+        "dormancy": 300,
+        "revival": 300,
+        "report_interval": 5
+    },
+    "success": true,
+    "message": "success",
+    "statusCode": 200
+}

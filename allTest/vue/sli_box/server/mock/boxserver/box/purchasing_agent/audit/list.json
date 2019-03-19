@@ -1,0 +1,32 @@
+{
+    "data": {
+        "pagination": {
+            "cur_page": 1,
+            "page_size": 10,
+            "total_page": 1,
+            "record_count": 1,
+            "pre": 1,
+            "next": 1,
+            "start": 0,
+            "end": 10
+        },
+        "items": [
+            {
+                "auditing_status": "不通过",
+                "purchasing_apply_id": "124214354325435345",
+                "name": "魏鏖鬮",
+                "mobile": "13186549827",
+                "nickname": "Lily",
+                "auditor": "系统",
+                "merchant_name": "富隆酒业",
+                "wxuser_id": "320634313820809119",
+                "auditing_time": "2019-01-05 13:38:00",
+                "auditing_remark": "名字笔划太多",
+                "status": 2
+            }
+        ]
+    },
+    "success": true,
+    "message": "success",
+    "statusCode": 200
+}

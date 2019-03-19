@@ -1,0 +1,14 @@
+{
+  "data": {
+    "type_name": "普通会员",
+    "threshold": 0.0,
+    "sort": 1,
+    "type_desc": "",
+    "status_formatted": "正常",
+    "status": "1",
+    "type_key": 1
+  },
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

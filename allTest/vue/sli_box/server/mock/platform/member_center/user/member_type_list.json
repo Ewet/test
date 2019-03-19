@@ -1,0 +1,42 @@
+{
+  "data": {
+    "pagination": {
+      "cur_page": 1,
+      "page_size": 10,
+      "total_page": 0,
+      "record_count": 0,
+      "pre": 1,
+      "next": 0,
+      "start": 0,
+      "end": 10
+    },
+    "items": [{
+      "type_name": "特邀会员",
+      "threshold": 9999999.0,
+      "sort": 9,
+      "type_desc": "",
+      "status_formatted": "正常",
+      "status": "1",
+      "type_key": 9
+    }, {
+      "type_name": "vip会员",
+      "threshold": 0.01,
+      "sort": 5,
+      "type_desc": "",
+      "status_formatted": "正常",
+      "status": "1",
+      "type_key": 5
+    }, {
+      "type_name": "普通会员",
+      "threshold": 0.0,
+      "sort": 1,
+      "type_desc": "",
+      "status_formatted": "正常",
+      "status": "1",
+      "type_key": 1
+    }]
+  },
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

@@ -1,0 +1,45 @@
+{
+    "data": {
+      "pagination": {
+        "cur_page": 1,
+        "page_size": 10,
+        "total_page": 4, 
+        "record_count": 32, 
+        "pre": 1,
+        "next": 2,
+        "start": 0,
+        "end": 10
+      },
+      "items": [
+        {
+          "ticket_id": "2646645565",
+          "ticket_no": "Y5Ej5VS",
+          "content": "<p>累死了淡蓝色的了打了啥地方水帘洞快疯了上岛咖啡乐山电力烦死了螺丝刀饭了</p>",
+          "auth_department_name": "客服部",
+          "orderType": "销售工单-售后",
+          "work_name": "客服一",
+          "handler": "技术员一",
+          "create_time_formatted": "2019-01-21 03:56:42",
+          "update_time_formatted": "2019-01-21 03:56:42",
+          "end_time_formatted": "2019-01-22 01:11:22 (剩36小时20分)",
+          "status_formatted": "待回复"
+        },
+        {
+          "ticket_id": "2646645565",
+          "ticket_no": "Y5Ej5VS",
+          "content": "<p><img src='https://www.baidu.com/img/bd_logo1.png' /></p>",
+          "auth_department_name": "客服部",
+          "orderType": "销售工单-售后",
+          "work_name": "客服一",
+          "handler": "技术员一",
+          "create_time_formatted": "2019-01-21 03:56:42",
+          "update_time_formatted": "2019-01-21 03:56:42",
+          "end_time_formatted": "2019-01-22 01:11:22 (剩36小时20分)",
+          "status_formatted": "待回复"
+        }
+      ]
+    },
+    "success": true,
+    "message": "success",
+    "statusCode": 200
+  }

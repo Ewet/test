@@ -1,0 +1,22 @@
+{
+  "data": [{
+    "from_type": "0",
+    "type_name": "开通vip会员",
+    "type_key": "5"
+  }, {
+    "from_type": "2",
+    "type_name": "赠送vip会员",
+    "type_key": "5"
+  }, {
+    "from_type": "0",
+    "type_name": "开通特邀会员",
+    "type_key": "9"
+  }, {
+    "from_type": "2",
+    "type_name": "赠送特邀会员",
+    "type_key": "9"
+  }],
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

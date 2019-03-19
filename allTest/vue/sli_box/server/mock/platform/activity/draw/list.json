@@ -1,0 +1,61 @@
+{
+  "data": {
+    "pagination": {  
+      "cur_page": 1,
+      "page_size": 10,
+      "total_page": 1,
+      "record_count": 1,
+      "pre": 1,
+      "next": 1,
+      "start": 0,
+      "end": 10
+    },
+    "items": [
+      {
+        "activity_id": "01",
+        "created_time": 11111,
+        "created_time_formatted": "2018-06-15 11:05:22",
+        "activity_name": "xxxxx",
+        "start_time": 1111,
+        "start_time_formatted": "2018-08-05 12:00:00",
+        "end_time": 1111,
+        "end_time_formatted": "2018-08-05 15:00:00",
+        "status": 10,
+        "status_formatted": "进行中", 
+        "created_by": "zhang",
+        "remaining_time_formatted": "xxxx"
+      },
+      {
+        "activity_id": "02",
+        "created_time": 11111,
+        "created_time_formatted": "2018-06-15 11:05:22",
+        "activity_name": "xxxxx",
+        "start_time": 1111,
+        "start_time_formatted": "2018-08-05 12:00:00",
+        "end_time": 1111,
+        "end_time_formatted": "2018-08-05 15:00:00",
+        "status": 20,
+        "status_formatted": "已结束",
+        "created_by": "san",
+        "remaining_time_formatted": "xxxx"
+      },
+      {
+        "activity_id": "03",
+        "created_time": 11111,
+        "created_time_formatted": "2018-06-15 11:05:22",
+        "activity_name": "xxxxx",
+        "start_time": 1111,
+        "start_time_formatted": "2018-08-05 12:00:00",
+        "end_time": 1111,
+        "end_time_formatted": "2018-08-05 15:00:00",
+        "status": 0,
+        "status_formatted": "待开始",
+        "created_by": "sanaaa",
+        "remaining_time_formatted": "xxxx"
+      }
+    ]
+  },
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

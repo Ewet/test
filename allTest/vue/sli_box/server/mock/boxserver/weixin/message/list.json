@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "statusCode": 200,
+  "message": "success",
+  "data": {
+    "pagination": {
+      "cur_page": 1,
+      "page_size": 10,
+      "total_page": 14,
+      "record_count": 139,
+      "pre": 1,
+      "next": 2,
+      "start": 0,
+      "end": 10
+    },
+    "items": [{
+      "message_id": "1213123131412",
+      "mobile": "13800138000",
+      "message": "消息内容",
+      "sent_by_formatted": "小红",
+      "created_time_formatted": "2018-12-12 10:31:00"
+    }]
+  }
+}

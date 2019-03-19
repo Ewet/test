@@ -1,0 +1,48 @@
+{
+  "data": {
+      "pagination": {
+          "cur_page": 1,
+          "page_size": 10,
+          "total_page": 1,
+          "record_count": 2,
+          "pre": 1,
+          "next": 1,
+          "start": 0,
+          "end": 10
+      },
+      "items": [
+            {
+                "goods_id": "001",
+                "goods_name": "xxxxxxxx",
+                "barcode": "xxxx",
+                "price": "100",
+                "quantity": "166",
+                "creatTime": "2018-01-12 10:24:46",
+                "paitTime": "2018-01-14 10:24:46",
+                "receivable_amount": "10",
+                "received_amount": "0",
+                "operator_name": "san",
+                "bom_code": "266"
+            },
+            {
+                "goods_id": "001",
+                "goods_name": "xxxxssxxxx",
+                "barcode": "xxxx",
+                "price": "100",
+                "quantity": "166",
+                "creatTime": "2018-01-12 10:24:46",
+                "paitTime": "2018-01-14 10:24:46",
+                "receivable_amount": "10",
+                "received_amount": "0",
+                "operator_name": "dd",
+                "bom_code": "266"
+            }
+        ],
+      "total_quantity": "10",
+      "total_receivable_amount": "10",
+      "total_received_amount": "106"
+  },
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

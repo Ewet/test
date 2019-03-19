@@ -1,0 +1,79 @@
+{
+    "data": {
+        "pagination": {
+            "cur_page": 1,
+            "page_size": 10,
+            "total_page": 103,
+            "record_count": 1022,
+            "pre": 1,
+            "next": 2,
+            "start": 0,
+            "end": 10
+        },
+        "items": [
+            {
+            "name": "测试商户1",
+            "box_no": 123454515,
+            "coupon_deduction": 123,
+            "random_deduction": 45,
+            "refunded_total": 123,
+            "real_receive": 123,
+            "paid_time": 123135465,
+            "paid_time_formatted": "2018-02-15"
+            },
+            {
+            "name": "测试商户1",
+            "box_no": 123454515,
+            "coupon_deduction": 123,
+            "random_deduction": 45,
+            "refunded_total": 123,
+            "real_receive": 123,
+            "paid_time": 123135465,
+            "paid_time_formatted": "2018-02-15"
+            },
+            {
+            "name": "测试商户1",
+            "box_no": 123454515,
+            "coupon_deduction": 0,
+            "random_deduction": 45,
+            "refunded_total": 123,
+            "real_receive": 123,
+            "paid_time": 123135465,
+            "paid_time_formatted": "2018-02-15"
+            },
+            {
+            "name": "测试商户1",
+            "box_no": 123454515,
+            "coupon_deduction": 123,
+            "random_deduction": 0,
+            "refunded_total": 123,
+            "real_receive": 123,
+            "paid_time": 123135465,
+            "paid_time_formatted": "2018-02-15"
+            },
+            {
+            "name": "测试商户1",
+            "box_no": 123454515,
+            "coupon_deduction": 123,
+            "random_deduction": 45,
+            "refunded_total": 0,
+            "real_receive": 123,
+            "paid_time": 123135465,
+            "paid_time_formatted": "2018-02-15"
+            },
+            {
+            "name": "测试商户1",
+            "box_no": 123454515,
+            "coupon_deduction": 0,
+            "random_deduction": 0,
+            "refunded_total": 0,
+            "real_receive": 123,
+            "paid_time": 123135465,
+            "paid_time_formatted": "2018-02-15"
+            }
+    ]
+    },
+    "success": true,
+    "message": "success",
+    "statusCode": 200
+}

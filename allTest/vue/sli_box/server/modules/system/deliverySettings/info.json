@@ -1,0 +1,24 @@
+{
+    "data": {
+        "advert_plan_id":"123",
+        "advert_plan_name": "元旦活动",
+        "box_data": [{
+            "box_id": "1321321332",
+            "name": "广东思理智能科技有限公司",
+            "box_no": "003"
+        }],
+        "start_day": 1527046850,
+        "start_day_formatted": "2018-09-17",
+        "end_day": 1527046850,
+        "end_day_formatted": "2018-09-18",
+        "start_time": 1527046850,
+        "start_time_formatted": "15:28:35",
+        "end_time": 1527046850,
+        "end_time_formatted": "15:28:40",
+        "advert_plan_count": 10,
+        "notes": "dada"
+    },
+    "success": true,
+    "message": "success",
+    "statusCode": 200
+}

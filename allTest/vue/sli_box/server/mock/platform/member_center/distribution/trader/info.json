@@ -1,0 +1,41 @@
+{
+  "data": {
+    "trader_id": "325576834793924113",
+    "trader_type": "1",
+    "withdraw_commission": 0.0,
+    "is_special_vip": "0",
+    "rule": "",
+    "in_transit_commission": 0.0,
+    "create_time_formatted": "2018-07-21 14:14:55",
+    "commission_limit": 500.0,
+    "app_id": "3",
+    "purchasing_commission": 0.0,
+    "total_stockholder": 0.0,
+    "create_time": 1532153695,
+    "total_commission": 0.0,
+    "trader_type_formatted": "普通会员",
+    "unsettle_commission": 0.0,
+    "status_formatted": "正常",
+    "active_commission": 0.0,
+    "rule_id": null,
+    "stockholder_commission": 0.0,
+    "total_purchasing": 0.0,
+    "user_id": "325576834793924113",
+    "audi_time": 1532153695,
+    "audi_time_formatted": "2018-07-21 14:14:55",
+    "user": {
+      "gender": "1",
+      "mobile": "15917158100",
+      "realname": null,
+      "user_id": "325576834793924113",
+      "nickname": "池大叔。",
+      "gender_formatted": "男",
+      "email": null,
+      "has_finish_order": 0
+    },
+    "status": "0"
+  },
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

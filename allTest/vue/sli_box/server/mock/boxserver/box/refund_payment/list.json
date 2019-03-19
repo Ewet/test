@@ -1,0 +1,94 @@
+{
+    "data": {
+        "pagination": {   
+            "cur_page": 1,
+            "page_size": 20,
+            "total_page": 4,  
+            "record_count": 32,
+            "pre": 1,
+            "next": 2,
+            "start": 0,
+            "end": 10
+        },
+        "items": [
+            {   
+                "order_sn": "0123456789",  
+                "correction_order_id":"000001",
+                "box_no": "123456",  
+				"op_time": "65651616565265",  
+				"op_time_formatted":"2018.10.10 10:00:00",
+				"op_type": "1",
+				"op_type_formatted":"退款",
+				"amount": 123,  
+                "admin_id": "00001",
+                "work_name":"小陈",
+                "status": 5,
+                "status_formatted":"收款失败",
+                "is_enable":0
+            },
+            {   
+                "order_sn": "11651313",  
+                "correction_order_id":"000002",
+                "box_no": "222622",  
+				"op_time": "65651616565265",  
+				"op_time_formatted":"2002.10.10 10:00:00",
+				"op_type": "1",
+				"op_type_formatted":"收款",
+				"amount": 123,  
+                "admin_id": "00001",
+                "work_name":"小陈",
+                "status": 2,
+                "status_formatted":"退款失败",
+                "is_enable":0
+            },
+            {   
+                "order_sn": "454515",  
+                "correction_order_id":"000003",
+                "box_no": "444646",  
+				"op_time": "65651616565265",  
+				"op_time_formatted":"2010.11.10 10:00:00",
+				"op_type": "1",
+				"op_type_formatted":"收款",
+				"amount": 123,  
+                "admin_id": "00001",
+                "work_name":"小名",
+                "status": 4,
+                "status_formatted":"收款成功",
+                "is_enable":0
+            },
+            {   
+                "order_sn": "454515",  
+                "correction_order_id":"000004",
+                "box_no": "444646",  
+				"op_time": "65651616565265",  
+				"op_time_formatted":"2010.11.10 10:00:00",
+				"op_type": "1",
+				"op_type_formatted":"收款",
+				"amount": 123,  
+                "admin_id": "00001",
+                "work_name":"小名",
+                "status": 3,
+                "status_formatted":"收款中",
+                "is_enable":0
+            },
+            {   
+                "order_sn": "454515",  
+                "correction_order_id":"000004",
+                "box_no": "444646",  
+				"op_time": "65651616565265",  
+				"op_time_formatted":"2010.11.10 10:00:00",
+				"op_type": "1",
+				"op_type_formatted":"收款",
+				"amount": 123,  
+                "admin_id": "00001",
+                "work_name":"小名",
+                "status": 0,
+                "status_formatted":"退款中",
+                "is_enable":0
+            }
+        ]
+    },
+    "success": true,
+    "message": "success",
+    "statusCode": 200
+}

@@ -1,0 +1,40 @@
+{
+  "data": {
+      "pagination": {
+          "cur_page": 1,
+          "page_size": 10,
+          "total_page": 1,
+          "record_count": 2,
+          "pre": 1,
+          "next": 1,
+          "start": 0,
+          "end": 10
+      },
+      "items": [{
+          "activity_name": "111",
+          "winner_id": "1",
+          "remark": "XXX",
+          "activity_id": "1",
+          "contact_address": "哈哈哈",
+          "contact_name": "zourui",
+          "openid": "123",
+          "prize_type_format": "XXX",
+          "prize_name": "XXX",
+          "realname": "XXX",
+          "nickname": "XXX",
+          "won_time": 1,
+          "won_time_fromat": "1970-01-01 08:00:01",
+          "prize_id": "1",
+          "user_id": "123",
+          "contact_mobile": "15981380325",
+          "order_sn": "123",
+          "prize_type": "XXX",
+          "fullSevenDays":"是",
+          "pay_status_format": "有退款",
+          "pay_status": "XXX"
+      }]
+  },
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

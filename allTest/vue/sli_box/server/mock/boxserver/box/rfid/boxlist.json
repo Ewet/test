@@ -1,0 +1,64 @@
+{
+    "data": {
+        "pagination": {
+            "cur_page": 1,
+            "page_size": 10,
+            "total_page": 2,
+            "record_count": 11,
+            "pre": 1,
+            "next": 2,
+            "start": 0,
+            "end": 10
+        },
+        "items": [
+            {
+                "box_id": "319709030051138073",
+                "box_no": "002",
+                "quality": 100
+            },
+            {
+                "box_id": "319709030051138073",
+                "box_no": "002",
+                "quality": 100
+            },
+            {
+                "box_id": "319709030051138073",
+                "box_no": "002",
+                "quality": 100
+            },
+            {
+                "box_id": "319709030051138073",
+                "box_no": "002",
+                "quality": 100
+            },
+            {
+                "box_id": "319709030051138073",
+                "box_no": "002",
+                "quality": 100
+            },
+            {
+                "box_id": "319709030051138073",
+                "box_no": "002",
+                "quality": 100
+            },
+            {
+                "box_id": "319709030051138073",
+                "box_no": "002",
+                "quality": 100
+            },
+            {
+                "box_id": "319709030051138073",
+                "box_no": "002",
+                "quality": 100
+            },
+            {
+                "box_id": "319709030051138073",
+                "box_no": "002",
+                "quality": 100
+            }
+    ]
+    },
+    "success": true,
+    "message": "success",
+    "statusCode": 200
+}

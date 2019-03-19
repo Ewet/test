@@ -1,0 +1,12 @@
+{
+  "data": {
+    "today_receipt": 1256, 
+    "yestterday_receipt": 456, 
+    "seven_receipt": 875, 
+    "thirty_receipt": 7548, 
+    "total_price": 46865 
+  },
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

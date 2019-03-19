@@ -1,0 +1,12 @@
+{
+    "data": {
+                 "client_main": "clientMain",              
+                 "client_monitor": "clientMonitor",         
+                 "client_adv": "clientAdv",                 
+                 "clent_daemon": "clentDaemon",    
+                 "hardware": "hardware"              
+    },
+    "success": true,
+    "message": "success",
+    "statusCode": 200
+}

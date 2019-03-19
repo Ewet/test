@@ -1,0 +1,29 @@
+{
+  "data": {
+      "items": [
+          {   
+      "user_id": "xxx",  
+      "nickname": "xxx",  
+      "realname": "xxx", 
+      "gender": 1,  
+              "gender_formatted": "xxx",
+              "created_time": 1534487583,
+              "created_time_formatted":"xxx",
+              "updated_time":31321,
+              "updated_time_formatted":"xxxx",
+              "avatar":"xxxxx",
+              "mobile":"13232156856",
+              "type":1,
+              "type_formatted":"摩萄盒子",
+              "invited_by": null,
+              "related_id": null,
+              "box_no":"xxxx",
+              "wxuser_id":"xxx"
+          
+          }
+      ]
+  },
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

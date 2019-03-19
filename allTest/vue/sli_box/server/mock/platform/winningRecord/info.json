@@ -1,0 +1,19 @@
+{
+  "data": {
+      "winner_id": "334032998470505978",
+      "activity_id": "4564646",
+      "prize_id": "74974646",
+      "openid": "-1",
+      "user_id": null,
+      "order_sn": "99999",
+      "won_time": 1540608998,
+      "contact_name": null,
+      "contact_mobile": null,
+      "contact_address": null,
+      "status": 0,
+      "remark": "放大法撒旦法撒旦"
+  },
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

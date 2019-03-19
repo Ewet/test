@@ -1,0 +1,15 @@
+{
+  "data": [{
+    "enum_name": "待发货",
+    "enum_id": "21"
+  }, {
+    "enum_name": "待收货",
+    "enum_id": "31"
+  }, {
+    "enum_name": "已完成",
+    "enum_id": "41"
+  }],
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

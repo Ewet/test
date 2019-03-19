@@ -1,0 +1,11 @@
+{
+  "data": {
+      "mcb_id": "001",  
+              "box_id": "00001",  
+      "ip_address": "192.168.2.330",  
+      "hw_version": "v2.2.5"  
+  },
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

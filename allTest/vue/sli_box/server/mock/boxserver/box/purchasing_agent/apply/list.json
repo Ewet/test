@@ -1,0 +1,43 @@
+{
+    "data": {
+        "pagination": {
+            "cur_page": 1,
+            "page_size": 10,
+            "total_page": 1,
+            "record_count": 3,
+            "pre": 1,
+            "next": 1,
+            "start": 0,
+            "end": 10
+        },
+        "items": [
+            {
+                "auditing_status": "已审核",
+                "created_time": "2019-01-05 13:37:51",
+                "apply_remark": "我也来",
+                "purchasing_apply_id": "5645168651265651",
+                "name": "陈晓旭",
+                "mobile": "13186549827",
+                "nickname": "Lily",
+                "merchant_name": "富隆酒业",
+                "wxuser_id": "320634313820809119",
+                "status": 0
+            },
+            {
+                "auditing_status": "未审核",
+                "created_time": "2019-01-05 13:37:51",
+                "apply_remark": "我也来",
+                "purchasing_apply_id": "5645168651265651",
+                "name": "陈晓旭",
+                "mobile": "13186549827",
+                "nickname": "Lily",
+                "merchant_name": "富隆酒业",
+                "wxuser_id": "320634313820809119",
+                "status": 1
+            }
+        ]
+    },
+    "success": true,
+    "message": "success",
+    "statusCode": 200
+}

@@ -1,0 +1,18 @@
+{
+    "data": {
+        "advert_id": "12345",
+        "advert_name": "测试数据1",
+        "advert_merchants_name": "测试数据1",
+        "file_id": "6666",
+        "file_url": "https://sili-pr.oss-cn-shenzhen.aliyuncs.com/341561652758603363",
+        "created_time": 342423543,
+        "created_time_formatted": "2018-09-17 00:00:00",
+        "created_by": "222",
+        "notes": "哈哈哈",
+        "status": 1,
+        "status_formatted": "正常"
+    },
+    "success": true,
+    "message": "success",
+    "statusCode": 200
+}

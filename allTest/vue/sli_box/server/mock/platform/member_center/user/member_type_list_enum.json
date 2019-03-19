@@ -1,0 +1,15 @@
+{
+  "data": [{
+    "type_name": "特邀会员",
+    "type_key": "9"
+  }, {
+    "type_name": "vip会员",
+    "type_key": "5"
+  }, {
+    "type_name": "普通会员",
+    "type_key": "1"
+  }],
+  "success": true,
+  "message": "OK",
+  "statusCode": 200
+}

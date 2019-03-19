@@ -1,0 +1,15 @@
+{
+  "data": [{
+    "enum_name": "未知",
+    "enum_id": "0"
+  }, {
+    "enum_name": "男",
+    "enum_id": "1"
+  }, {
+    "enum_name": "女",
+    "enum_id": "2"
+  }],
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

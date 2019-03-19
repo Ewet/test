@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "message": "success",
+  "statusCode": 200,
+  "data": [
+    {
+      "prize_id": "xxxx",
+      "activity_id": "xxxx",
+      "prize_type": 1,
+      "prize_type_formatted": "奖金",
+      "prize_name": "xxxx",
+      "prize_order": 0,
+      "prize_image_url": "http://pic.qiantucdn.com/58pic/13/71/35/24k58PICSiB_1024.jpg",
+      "quantity": 13
+  },
+    {
+      "prize_id": "xxxx",
+      "activity_id": "xxxx",
+      "prize_type": 1,
+      "prize_type_formatted": "奖金",
+      "prize_name": "xxxx",
+      "prize_order": 0,
+      "prize_image_url": "http://pic.qiantucdn.com/58pic/13/71/35/24k58PICSiB_1024.jpg",
+      "quantity": 13
+  }
+]
+}

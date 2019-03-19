@@ -1,0 +1,33 @@
+{
+  "data": [{
+      "goods_name": "屈臣氏饮用水",
+      "quantity": 1,
+      "total_price": 0,
+      "price": 0,
+      "goods_id": "320471281541708175",
+      "return_stock": 0,
+      "bom_code": "12"
+    },
+    {
+      "goods_name": "圣安纳珍藏多伦提斯白葡萄酒",
+      "quantity": 1,
+      "total_price": 0,
+      "price": 0,
+      "goods_id": "320557302291982074",
+      "return_stock": 0,
+      "bom_code": "15"
+    },
+    {
+      "goods_name": "沙示汽水",
+      "quantity": 1,
+      "total_price": 158,
+      "price": 158,
+      "goods_id": "322208737170512194",
+      "return_stock": 0,
+      "bom_code": "06"
+    }
+  ],
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

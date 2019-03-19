@@ -1,0 +1,34 @@
+{
+  "data": {
+    "created_time": 1527325998,
+    "title_type_format": "个人",
+    "status_format": "开票成功",
+    "created_time_format": "2018-05-26 17:13:18",
+    "random_deduction": "0.00", 
+    "paid_time": 1532397596,
+    "goodsList": [ 
+      {
+        "goods_name": "法国原装红酒 波尔多AOC帕尔曼子爵干红葡萄酒", 
+        "quantity": 15, 
+        "price": 500 
+      }
+    ],
+    "handled_time_format": "2018-05-30 11:14:57", 
+    "pic": "https://sili-pr.oss-cn-shenzhen.aliyuncs.com/331282520823221149", 
+    "title_type": 1,
+    "points_deduction": "0.00",
+    "coupon_deduction": "0.00",
+    "handled_time": 1527650097,
+    "file_id": "331282520823221149",
+    "refunded_total": "0.00",
+    "order_total": "5,254.10", 
+    "title_name": "丽水", 
+    "paid_total": "5,254.10",
+    "order_id": "325821596133874173",
+    "order_sn": "180724-095956-536616",
+    "status": 20
+  },
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

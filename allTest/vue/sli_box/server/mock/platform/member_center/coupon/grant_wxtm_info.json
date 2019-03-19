@@ -1,0 +1,21 @@
+{
+  "data": {
+    "wxtm_link": null,
+    "wxtm_template_id": "9dVTkICYIzsxSwMZySZ5eNhkGBVpWsUvKcRdl_hcUTA",
+    "wxtm_keyword2": "没有时间限制",
+    "wxtm_cfg": {
+      "template_no": "OPENTM401114300",
+      "desc": "服务受理通知"
+    },
+    "wxtm_keyword1": "你的优惠券已经到账啦，请及时使用哦！",
+    "wxtm_keyword1_color": "#85508B",
+    "wxtm_keyword2_color": "#A3B1BF",
+    "wxtm_remark_color": "#4B6E24",
+    "wxtm_first": "优惠券到账通知",
+    "wxtm_first_color": "#2A7FD9",
+    "wxtm_remark": " @@#$@@#@@               "
+  },
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

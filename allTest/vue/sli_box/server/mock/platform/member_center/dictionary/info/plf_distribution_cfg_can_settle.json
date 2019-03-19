@@ -1,0 +1,12 @@
+{
+  "data": [{
+    "enum_name": "不允许",
+    "enum_id": "0"
+  }, {
+    "enum_name": "允许",
+    "enum_id": "1"
+  }],
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

@@ -1,0 +1,43 @@
+{
+  "data": {
+    "pagination": {
+      "cur_page": 1,
+      "page_size": 10,
+      "total_page": 4, 
+      "record_count": 32, 
+      "pre": 1,
+      "next": 2,
+      "start": 0,
+      "end": 10
+    },
+    "items": [
+      {
+        "replenishment_id": "001", 
+        "name": "测试商户", 
+        "box_no": "PR1001", 
+        "replenishman_name": "张三", 
+        "created_formatted": "2018-08-17 14:33:03",
+        "create_time": 1534487583
+      },
+      {
+        "replenishment_id": "002",
+        "name": "测试商户",
+        "box_no": "PR1002",
+        "replenishman_name": "张三",
+        "created_formatted": "2018-08-17 14:33:03",
+        "create_time": 1534487583
+      },
+      {
+        "replenishment_id": "003",
+        "name": "测试商户",
+        "box_no": "PR1003",
+        "replenishman_name": "张三",
+        "created_formatted": "2018-08-17 14:33:03",
+        "create_time": 1534487583
+      }
+    ]
+  },
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

@@ -1,0 +1,19 @@
+{
+    "success": true,
+    "statusCode": 200,
+    "message": "true",
+    "data": [
+        {
+            "layer_id": "3143214231424",    
+            "layer_no": "01货区",                
+            "goods_name": "商品名称",       
+            "price": 99.9                  
+        },
+        {
+            "layer_id": "31432142389",    
+            "layer_no": "02货区",                
+            "goods_name": "测试商品",       
+            "price": 99.9                  
+        }
+    ]
+}

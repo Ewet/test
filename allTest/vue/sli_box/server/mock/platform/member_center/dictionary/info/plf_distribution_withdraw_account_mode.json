@@ -1,0 +1,9 @@
+{
+  "data": [{
+    "enum_name": "微信",
+    "enum_id": "0"
+  }],
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

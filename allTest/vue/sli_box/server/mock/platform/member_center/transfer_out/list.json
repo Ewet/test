@@ -1,0 +1,42 @@
+{
+  "data": {
+      "pagination": {
+          "cur_page": 1,
+          "page_size": 10,
+          "total_page": 0,
+          "record_count": 0,
+          "pre": 1,
+          "next": 0,
+          "start": 0,
+          "end": 10
+      },
+      "items": [{
+          "user_id": "xxx",
+          "box_no": "xxx",
+          "quantity": 6,
+          "create_time": "xxxx",
+          "create_time_formatted": "1999-12-11 11:11:11",
+          "nickname": "张三",
+          "mobile": "15330775038",
+          "type": [{
+              "type_name": "普通会员",
+              "type_key": 1
+          }, {
+              "type_name": "特邀会员",
+              "type_key": 9
+          }],
+          "goods_name": "xxx红酒",
+          "order_sn": "p-002002",
+          "order_total": 500,
+          "commission_rate": 0.07,
+          "record_description": "提现",
+          "amount": 20,
+          "type_status": "1",
+          "type_status_formatted": "会员奖励",
+          "merchant_name": "xxxx"
+      }]
+  },
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

@@ -1,0 +1,43 @@
+{
+  "data": {
+      "pagination": {
+          "cur_page": 1,
+          "page_size": 10,
+          "total_page": 3,
+          "record_count": 26,
+          "pre": 1,
+          "next": 2,
+          "start": 0,
+          "end": 10
+      },
+      "items": [
+        {
+          "firmwares_id": "01",
+          "created_time_formatted": "2018-08-17 14:33:03",
+          "firmwares_type": "clientMain",
+          "file_name": "系统升级V1.0",
+          "size": "100M",
+          "version": "SJ0001",
+          "type_formatted": "H001,H002",
+          "user_name": "小zhang",
+          "upload_results_formatted": "上传成功",
+          "remarks": "重要补丁"
+        }, 
+        {
+          "firmwares_id": "012",
+          "created_time_formatted": "2018-08-17 14:33:03",
+          "firmwares_type": "clientMonitor",
+          "file_name": "系统升级V1.0",
+          "size": "100M",
+          "version": "SJ0001",
+          "type_formatted": "H001,H002",
+          "user_name": "小545",
+          "upload_results_formatted": "上传成功",
+          "remarks": "重要补丁"
+        }
+      ]
+  },
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

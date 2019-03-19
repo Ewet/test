@@ -1,0 +1,22 @@
+{
+    "data": {
+        "merchant_id": "xxx",
+        "user_id": "xxx",
+        "name": "测试商户1",
+        "legal_person": "测试1",
+        "legal_person_id": "xxx",
+        "address": "广东省中山市三乡金融中心",
+        "join_time": 123,
+        "join_time_formatted": "2018-05-07 11:49:29",
+        "created_time": 123,
+        "created_time_formatted": "xxx",
+        "max_number_of_agents": 0,
+        "status": 1,
+        "status_formatted": "xxx",
+        "updated_time": 123,
+        "updated_time_formatted": ""
+    },
+    "success": true,
+    "message": "success",
+    "statusCode": 200
+}

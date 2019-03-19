@@ -1,0 +1,31 @@
+{
+  "data": {
+      "pagination": {
+          "cur_page": 1,
+          "page_size": 10,
+          "total_page": 3,
+          "record_count": 29,
+          "pre": 1,
+          "next": 2,
+          "start": 0,
+          "end": 10
+      },
+      "items": [{
+          "created_time": 1521077686,
+          "goods_name": "法国原装红酒 波尔多AOC帕尔曼子爵干红葡萄酒",
+          "created_formatted": "2018-03-15 09:09:46",
+          "layer_no": "001",
+          "detail_type": 1,
+          "detail_type_formatted": "理货",
+          "name": "zsldj-test",
+          "box_no": "1009",
+          "new_quantity": 2,
+          "old_quantity": 4,
+          "number_of_cells": 0,
+          "replenishment_quantity": -2
+      }]
+  },
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

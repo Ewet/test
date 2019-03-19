@@ -1,0 +1,61 @@
+{
+  "data": {
+    "pagination": {
+      "cur_page": 1,
+      "page_size": 10,
+      "total_page": 4, 
+      "record_count": 32, 
+      "pre": 1,
+      "next": 2,
+      "start": 0,
+      "end": 10
+    },
+    "items": [
+      {
+        "order_sn": "xxx", 
+        "box_no": "001", 
+        "goods_name": "xxx", 
+        "shelf_no": "xxx", 
+        "layer_no": "xxx", 
+        "created_formatted": "2018-08-17 14:33:03", 
+        "created": 1534487583, 
+        "type": 1, 
+        "type_formatted": "xxx", 
+        "user_id": "xxx",
+        "from": 120,
+        "to": 122
+      }, 
+      {
+        "order_sn": "xxx",
+        "box_no": "002",
+        "goods_name": "xxx",
+        "shelf_no": "xxx",
+        "layer_no": "xxx",
+        "created_formatted": "2018-08-17 14:33:03",
+        "created": 1534487583,
+        "type": 1,
+        "type_formatted": "xxx",
+        "user_id": "xxx",
+        "from": 112,
+        "to": 122
+      },
+      {
+        "order_sn": "xxx",
+        "box_no": "003",
+        "goods_name": "xxx",
+        "shelf_no": "xxx",
+        "layer_no": "xxx",
+        "created_formatted": "2018-08-17 14:33:03",
+        "created": 1534487583,
+        "type": 1,
+        "type_formatted": "xxx",
+        "user_id": "xxx",
+        "from": 102,
+        "to": 122
+      }
+  ]
+  },
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

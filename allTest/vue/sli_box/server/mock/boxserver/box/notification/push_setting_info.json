@@ -1,0 +1,19 @@
+{
+      "success": true, 
+      "statusCode" : 200,
+      "message": "success",
+      "data": {
+           "setting_id":"001",            
+           "admin_id":"0001",              
+          "monday":1,                     
+          "tuesday":1,                  
+          "wednesday":1,                  
+          "thursday":1,                   
+          "friday":0,                      
+          "saturday":0,                     
+          "sunday":0,                       
+          "from_time":"06:50:22",          
+          "to_time":"09:20:22",            
+          "is_active": 1                    
+      }
+    }

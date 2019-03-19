@@ -1,0 +1,32 @@
+{
+    "data": {
+        "box_id": "316753593239710148",
+        "mode": "auto",
+        "conditioner_id": "322898916507291060",
+        "autoModeList": [
+            {
+                "setting_id":"322883097958993109",
+                "start_time": "14:08:00",
+                "running_mode": 2,
+                "activation_fromat": "未激活",
+                "end_time": "14:20:00",
+                "temperature": 16,
+                "wind_speed": 2,
+                "activation": 2 
+            },
+            {
+                "setting_id":"322883097958993109", 
+                "start_time": "15:20:00",
+                "running_mode": 1,
+                "activation_fromat": "未激活",
+                "end_time": "15:22:00",
+                "temperature": 23,
+                "wind_speed": 3,
+                "activation": 2
+            }
+        ]
+    },
+    "success": true,
+    "message": "success",
+    "statusCode": 200
+}

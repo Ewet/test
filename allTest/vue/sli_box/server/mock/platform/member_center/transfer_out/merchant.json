@@ -1,0 +1,24 @@
+{
+  "data": {
+    "pagination": {
+      "cur_page": 1,
+      "page_size": 10,
+      "total_page": 0,
+      "record_count": 0,
+      "pre": 1,
+      "next": 0,
+      "start": 0,
+      "end": 10
+    },
+    "items": [{
+      "merchant_name": "商户1"
+    },{
+      "merchant_name": "商户2"
+    },{
+      "merchant_name": "商户3"
+    }]
+  },
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

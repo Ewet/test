@@ -1,0 +1,19 @@
+{
+    "data": [
+      {
+        "enum_name": "已退货",
+        "enum_id": "10"
+      },
+      {
+        "enum_name": "已退款",
+        "enum_id": "20"
+      },
+      {
+        "enum_name": "已复核",
+        "enum_id": "30"
+      }
+    ],
+    "success": true,
+    "message": "success",
+    "statusCode": 200
+  }

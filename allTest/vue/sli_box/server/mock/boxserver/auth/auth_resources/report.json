@@ -1,0 +1,68 @@
+{
+    "children": [
+        {
+            "children": [
+                {
+                    "routerName": "SalesReport",
+                    "name": "销售报表"
+                },
+                {
+                    "routerName": "SalesDetail",
+                    "name": "销售明细"
+                },
+                {
+                    "routerName": "OrderReport",
+                    "name": "订单报表"
+                },
+                {
+                    "routerName": "CollectionDetail",
+                    "name": "收款明细"
+                }
+            ],
+            "routerName": "",
+            "name": "销售统计"
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "routerName": "StockingReport",
+                    "name": "备货报表 ",
+                    "id": "020201"
+                },
+                {
+                    "children": [],
+                    "routerName": "ReplenishmentReport",
+                    "name": "补货报表",
+                    "id": "020202"
+                }
+            ],
+            "routerName": "",
+            "name": "库存统计",
+            "id": "0202"
+        },
+        {
+            "children": [
+                {
+                    "name": "提现流水记录",
+                    "routerName": "CashFlowRecord"
+                },
+                {
+                    "name": "微信抽奖-中奖记录",
+                    "routerName": "WeChatwinningRecord"
+                },
+                {
+                    "name": "推荐有奖-中奖记录",
+                    "routerName": "WinningNote"
+                }
+            ],
+            "routerName": "",
+            "name": "奖励统计",
+            "id": "0202"
+        }
+    ],
+    "routerName": "report.html",
+    "name": "报表管理",
+    "auth_employee_id": "D45996FCFB6F4795B89947594E1942B1",
+    "id": "02"
+}

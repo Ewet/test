@@ -1,0 +1,25 @@
+{
+  "data": {
+    "box_id": "333016486388064118",
+    "created_time": 1539592486,
+    "updated_time": 1539592486,
+    "address": "测试地址 ",
+    "updated_time_formatted": "2018-10-15 16:34:46",
+    "lat": 22.368541027554254,
+    "lng": 113.46834182739258,
+    "in_maintenance": 0,
+    "merchant_id": "433016486388064118",
+    "merchant_name": "商户名称",
+    "status_formatted": "离线",
+    "created_time_formatted": "2018-10-15 16:34:46",
+    "box_no": "12345678",
+    "district_id": "533016486388064118",
+    "district_name": "地区名称",
+    "installed_time_formatted": "2018-01-12 12:10:10",
+    "installed_time": 1539659375,
+    "status": "1"
+  },
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

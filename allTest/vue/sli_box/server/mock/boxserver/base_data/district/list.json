@@ -1,0 +1,89 @@
+{
+  "data": {
+    "pagination": {
+      "cur_page": 1,
+      "page_size": 10,
+      "total_page": 4,
+      "record_count": 39,
+      "pre": 1,
+      "next": 2,
+      "start": 0,
+      "end": 10
+    },
+    "items": [
+      {
+        "district_name": "五桂山",
+        "create_time_fromat": "2018-08-21 10:37:03",
+        "create_time": 1534819023,
+        "district_id": "328243016891639710",
+        "sort": 0
+      },
+      {
+        "district_name": "78888",
+        "create_time_fromat": "2018-08-21 10:25:17",
+        "create_time": 1534818317,
+        "district_id": "328242310773114256",
+        "sort": 0
+      },
+      {
+        "district_name": "中",
+        "create_time_fromat": "2018-08-21 10:22:39",
+        "create_time": 1534818159,
+        "district_id": "328242152805179823",
+        "sort": 0
+      },
+      {
+        "district_name": "中山",
+        "create_time_fromat": "2018-08-21 09:59:46",
+        "create_time": 1534816786,
+        "district_id": "328240779312193394",
+        "sort": 0
+      },
+      {
+        "district_name": "中山1",
+        "create_time_fromat": "2018-08-21 09:51:51",
+        "create_time": 1534816311,
+        "district_id": "328240304503402925",
+        "sort": 0
+      },
+      {
+        "district_name": "中山",
+        "create_time_fromat": "2018-08-21 09:50:55",
+        "create_time": 1534816255,
+        "district_id": "328240248408641955",
+        "sort": 0
+      },
+      {
+        "district_name": "中山市坦洲镇",
+        "create_time_fromat": "2018-08-20 16:27:40",
+        "create_time": 1534753660,
+        "district_id": "328177655510891503",
+        "sort": 0
+      },
+      {
+        "district_name": "测试地址修改",
+        "create_time_fromat": "2018-08-17 14:33:03",
+        "create_time": 1534487583,
+        "district_id": "327911584839483283",
+        "sort": 1
+      },
+      {
+        "district_name": "123131231",
+        "create_time_fromat": "2018-08-17 14:24:43",
+        "create_time": 1534487083,
+        "district_id": "327911084131434748",
+        "sort": 0
+      },
+      {
+        "district_name": "1243213214",
+        "create_time_fromat": "2018-08-17 14:20:20",
+        "create_time": 1534486820,
+        "district_id": "327910821577094042",
+        "sort": 0
+      }
+    ]
+  },
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

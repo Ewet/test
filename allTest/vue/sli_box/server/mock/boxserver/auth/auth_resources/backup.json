@@ -1,0 +1,814 @@
+{
+  "data": [{
+      "routerName": "platform.html",
+      "id": "01",
+      "children": [{
+          "name": "会员管理",
+          "id": "0104",
+          "children": [{
+              "name": "会员列表",
+              "id": "010401",
+              "routerName": "MemberList"
+            },
+            {
+              "name": "会员类型列表",
+              "routerName": "MemberType"
+            },
+            {
+              "name": "随机立减活动设置",
+              "routerName": "RandomRemissionSetting"
+            },
+            {
+              "name": "随机立减活动规则",
+              "routerName": "RandomRemissionRule"
+            }
+          ],
+          "routerName": ""
+        },
+        {
+          "name": "订单管理",
+          "id": "0102",
+          "children": [{
+              "name": "全部订单",
+              "id": "010201",
+              "routerName": "OrderList"
+            },
+            {
+              "name": "待发货",
+              "id": "010202",
+              "routerName": "OrderList"
+            },
+            {
+              "name": "待收货",
+              "id": "010203",
+              "routerName": "OrderList"
+            },
+            {
+              "name": "已完成",
+              "id": "010204",
+              "routerName": "OrderList"
+            }
+          ],
+          "fatherId": "01",
+          "authCode": "admin",
+          "routerName": ""
+        },
+        {
+          "name": "分销中心",
+          "id": "0101",
+          "children": [{
+              "name": "基础设置",
+              "id": "010101",
+              "routerName": "DistributionBaseSetting"
+            },
+            {
+              "name": "分销商管理",
+              "id": "010102",
+              "routerName": "DistributorManagement"
+            },
+            {
+              "name": "分销规则",
+              "id": "010102",
+              "routerName": "DistributorRule"
+            },
+            {
+              "name": "分销订单",
+              "id": "010102",
+              "routerName": "DistributionOrder"
+            }
+          ],
+          "fatherId": "01",
+          "authCode": "admin",
+          "routerName": ""
+        },
+        {
+          "name": "提现申请",
+          "id": "0103",
+          "children": [{
+              "resUrl": "",
+              "name": "待审核",
+              "id": "010303",
+              "routerName": "WithdrawList"
+            },
+            {
+              "name": "待打款",
+              "id": "010304",
+              "routerName": "WithdrawList"
+            },
+            {
+              "name": "已打款",
+              "id": "010305",
+              "routerName": "WithdrawList"
+            }
+          ],
+          "fatherId": "01",
+          "routerName": ""
+        },
+        {
+          "name": "代购中心",
+          "id": "0103",
+          "children": [{
+            "resUrl": "",
+            "name": "代购规则",
+            "id": "010303",
+            "routerName": "PurchasingRules"
+          }],
+          "fatherId": "01",
+          "routerName": ""
+        },
+        {
+          "name": "优惠劵",
+          "id": "0103",
+          "children": [{
+              "resUrl": "",
+              "name": "优惠劵列表",
+              "id": "010303",
+              "routerName": "CouponList"
+            },
+            {
+              "name": "赠劵设置",
+              "id": "010304",
+              "routerName": "GiftRollSetting"
+            },
+            {
+              "name": "发放设置",
+              "id": "010305",
+              "routerName": "ReleaseSetting"
+            },
+            {
+              "name": "发放记录",
+              "id": "010305",
+              "routerName": "ReleaseRecord"
+            }
+          ],
+          "fatherId": "01",
+          "routerName": ""
+        },
+        {
+          "name": "统计查询",
+          "id": "0103",
+          "children": [{
+            "resUrl": "",
+            "name": "提现流水记录",
+            "id": "010303",
+            "routerName": "CashFlowRecord"
+          }],
+          "fatherId": "01",
+          "routerName": ""
+        },
+        {
+          "name": "官网管理",
+          "id": "0103",
+          "children": [{
+            "resUrl": "",
+            "name": "留言管理",
+            "id": "010303",
+            "routerName": "MessageManagement"
+          }],
+          "fatherId": "01",
+          "routerName": ""
+        },
+        {
+          "name": "活动管理",
+          "id": "0103",
+          "children": [{
+              "resUrl": "",
+              "name": "微信抽奖",
+              "id": "010303",
+              "routerName": "WeChatDraw"
+            },
+            {
+              "resUrl": "",
+              "name": "微信抽奖-中奖记录",
+              "id": "010303",
+              "routerName": "WeChatwinningRecord"
+            },
+            {
+              "resUrl": "",
+              "name": "推荐有奖",
+              "id": "010303",
+              "routerName": "RecommendedAwards"
+            },
+            {
+              "resUrl": "",
+              "name": "推荐有奖-中奖记录",
+              "id": "010303",
+              "routerName": "WinningNote"
+            }
+          ],
+          "fatherId": "01",
+          "routerName": ""
+        }
+      ],
+      "name": "平台管理222"
+    },
+    {
+      "resUrl": "https://pr.motaobox.com/box/index.php?module=admin&namespace=invoicing&controller=goods",
+      "notes": "一级目录01",
+      "authCode": "admin",
+      "children": [{
+          "resUrl": "https://pr.motaobox.com/index",
+          "notes": "二级目录02",
+          "authCode": "admin",
+          "children": [{
+              "resUrl": "https://pr.motaobox.com/box/index.php?module=admin&namespace=invoicing&controller=replenish",
+              "notes": "三级目录03",
+              "authCode": "admin",
+              "children": [],
+              "routerName": "Replenishment",
+              "resType": 3,
+              "name": "补货记录",
+              "fatherId": "0104",
+              "id": "010401"
+            },
+            {
+              "resUrl": "https://pr.motaobox.com/box/index.php?module=admin&namespace=invoicing&controller=inventory&action=changerecords",
+              "notes": "三级目录03",
+              "authCode": "admin",
+              "children": [],
+              "routerName": "InventoryChange",
+              "resType": 3,
+              "name": "库存变动记录",
+              "fatherId": "0104",
+              "id": "010402"
+            }
+          ],
+          "routerName": "",
+          "resType": 3,
+          "name": "库存管理",
+          "fatherId": "01",
+          "id": "0104"
+        },
+        {
+          "resUrl": "https://pr.motaobox.com/index",
+          "notes": "二级目录02",
+          "authCode": "admin",
+          "children": [{
+              "resUrl": "https://pr.motaobox.com/box/index.php?module=admin&namespace=merchant&controller=replenishment",
+              "notes": "三级目录03",
+              "authCode": "admin",
+              "children": [],
+              "routerName": "SalesPlan",
+              "resType": 3,
+              "name": "销售计划",
+              "fatherId": "0102",
+              "id": "010201"
+            },
+            {
+              "resUrl": "https://pr.motaobox.com/box/index.php?module=admin&namespace=invoicing&controller=orderlist",
+              "notes": "三级目录03",
+              "authCode": "admin",
+              "children": [],
+              "routerName": "Order",
+              "resType": 3,
+              "name": "订单列表",
+              "fatherId": "0102",
+              "id": "010202"
+            },
+            {
+              "resUrl": "https://pr.motaobox.com/box/index.php?module=admin&namespace=invoicing&controller=invoice",
+              "notes": "三级目录03",
+              "authCode": "admin",
+              "children": [],
+              "routerName": "Invoice",
+              "resType": 3,
+              "name": "发票列表",
+              "fatherId": "0102",
+              "id": "010203"
+            }
+          ],
+          "routerName": null,
+          "resType": 3,
+          "name": "销售管理",
+          "fatherId": "01",
+          "id": "0102"
+        },
+        {
+          "resUrl": "https://pr.motaobox.com/index",
+          "notes": "二级目录02",
+          "authCode": "admin",
+          "children": [{
+              "resUrl": "https://pr.motaobox.com/box/index.php?module=admin&namespace=invoicing&controller=gcategory",
+              "notes": "三级目录03",
+              "authCode": "admin",
+              "children": [],
+              "routerName": "GoodsCategory",
+              "resType": 3,
+              "name": "商品分类",
+              "fatherId": "0101",
+              "id": "010101"
+            },
+            {
+              "resUrl": "https://pr.motaobox.com/box/index.php?module=admin&namespace=invoicing&controller=goods",
+              "notes": "三级目录03",
+              "authCode": "admin",
+              "children": [],
+              "routerName": "Goods",
+              "resType": 3,
+              "name": "商品列表",
+              "fatherId": "0101",
+              "id": "010102"
+            }
+          ],
+          "routerName": null,
+          "resType": 3,
+          "name": "商品管理",
+          "fatherId": "01",
+          "id": "0101"
+        },
+        {
+          "resUrl": "https://pr.motaobox.com/index",
+          "notes": "二级目录02",
+          "authCode": "admin",
+          "children": [{
+              "resUrl": "",
+              "notes": "三级目录03",
+              "authCode": "admin",
+              "children": [],
+              "routerName": "PendingInspection",
+              "resType": 3,
+              "name": "待验货",
+              "fatherId": "0103",
+              "id": "010303"
+            },
+            {
+              "resUrl": "",
+              "notes": "三级目录03",
+              "authCode": "admin",
+              "children": [],
+              "routerName": "PendingConfirmed",
+              "resType": 3,
+              "name": "待确认",
+              "fatherId": "0103",
+              "id": "010304"
+            },
+            {
+              "resUrl": "https://pr.motaobox.com/box/index.php?module=admin&controller=iframe&id=010403",
+              "notes": "三级目录03",
+              "authCode": "admin",
+              "children": [],
+              "routerName": "ReturnInquiry",
+              "resType": 3,
+              "name": "退货查询",
+              "fatherId": "0103",
+              "id": "010305"
+            },
+            {
+              "resUrl": "https://pr.motaobox.com/box/index.php?module=admin&controller=iframe&id=010401",
+              "notes": "三级目录03",
+              "authCode": "admin",
+              "children": [],
+              "routerName": "PendingRefund",
+              "resType": 3,
+              "name": "待退款",
+              "fatherId": "0103",
+              "id": "010301"
+            },
+            {
+              "resUrl": "https://pr.motaobox.com/box/index.php?module=admin&controller=iframe&id=010402",
+              "notes": "三级目录03",
+              "authCode": "admin",
+              "children": [],
+              "routerName": "PendingReview",
+              "resType": 3,
+              "name": "待复核",
+              "fatherId": "0103",
+              "id": "010302"
+            }
+          ],
+          "routerName": null,
+          "resType": 3,
+          "name": "退货退款",
+          "fatherId": "01",
+          "id": "0103"
+        }
+      ],
+      "routerName": "market.html",
+      "resType": 3,
+      "name": "营销管理",
+      "fatherId": null,
+      "auth_employee_id": "D45996FCFB6F4795B89947594E1942B1",
+      "id": "01"
+    },
+    {
+      "resUrl": "https://pr.motaobox.com/box/index.php?module=admin&namespace=statistics&controller=orderstate",
+      "notes": "一级目录01",
+      "authCode": "admin",
+      "children": [{
+          "resUrl": "https://pr.motaobox.com/index ",
+          "notes": "二级目录02",
+          "authCode": "admin",
+          "children": [{
+              "resUrl": "https://pr.motaobox.com/box/index.php?module=admin&namespace=statistics&controller=orderstate",
+              "notes": "三级目录03",
+              "authCode": "admin",
+              "children": [],
+              "routerName": "SalesReport",
+              "resType": 3,
+              "name": "销售报表",
+              "fatherId": "0201",
+              "id": "020101"
+            },
+            {
+              "resUrl": "https://pr.motaobox.com/box/index.php?module=admin&namespace=statistics&controller=orderstate",
+              "notes": "三级目录03",
+              "authCode": "admin",
+              "children": [],
+              "routerName": "SalesDetail",
+              "resType": 3,
+              "name": "销售明细",
+              "fatherId": "0201",
+              "id": "020101"
+            },
+            {
+              "resUrl": "https://pr.motaobox.com/box/index.php?module=admin&namespace=statistics&controller=orderstate",
+              "notes": "三级目录03",
+              "authCode": "admin",
+              "children": [],
+              "routerName": "OrderReport",
+              "resType": 3,
+              "name": "订单报表",
+              "fatherId": "0201",
+              "id": "020101"
+            },
+            {
+              "resUrl": "https://pr.motaobox.com/box/index.php?module=admin&namespace=statistics&controller=orderstate",
+              "notes": "三级目录03",
+              "authCode": "admin",
+              "children": [],
+              "routerName": "CollectionDetail",
+              "resType": 3,
+              "name": "收款明细",
+              "fatherId": "0201",
+              "id": "020101"
+            },
+            {
+              "resUrl": "https://pr.motaobox.com/box/index.php?module=admin&namespace=statistics&controller=orderstate",
+              "notes": "三级目录03",
+              "authCode": "admin",
+              "children": [],
+              "routerName": "DailyReceipt",
+              "resType": 3,
+              "name": "日收款汇总",
+              "fatherId": "0201",
+              "id": "020101"
+            }
+          ],
+          "routerName": "",
+          "resType": 3,
+          "name": "销售统计",
+          "fatherId": "02",
+          "id": "0201"
+        },
+        {
+          "resUrl": "https://pr.motaobox.com/index",
+          "notes": "二级目录02",
+          "authCode": "admin",
+          "children": [{
+              "resUrl": "https://pr.motaobox.com/box/index.php?module=admin&namespace=statistics&controller=stock",
+              "notes": "三级目录03",
+              "authCode": "admin",
+              "children": [],
+              "routerName": "StockingReport",
+              "resType": 3,
+              "name": "备货报表 ",
+              "fatherId": "0202",
+              "id": "020201"
+            },
+            {
+              "resUrl": "https://pr.motaobox.com/box/index.php?module=admin&namespace=statistics&controller=replenishment",
+              "notes": "三级目录03",
+              "authCode": "admin",
+              "children": [],
+              "routerName": "ReplenishmentReport",
+              "resType": 3,
+              "name": "补货报表",
+              "fatherId": "0202",
+              "id": "020202"
+            }
+          ],
+          "routerName": "",
+          "resType": 3,
+          "name": "库存统计",
+          "fatherId": "02",
+          "id": "0202"
+        }
+      ],
+      "routerName": "report.html",
+      "resType": 3,
+      "name": "报表管理",
+      "fatherId": null,
+      "auth_employee_id": "D45996FCFB6F4795B89947594E1942B1",
+      "id": "02"
+    },
+    {
+      "resUrl": "https://pr.motaobox.com/box/index.php?module=admin&namespace=member&controller=replenishman",
+      "notes": "一级目录01",
+      "authCode": "admin",
+      "children": [{
+          "resUrl": "https://pr.motaobox.com/box/index.php?module=admin&namespace=member&controller=replenishman",
+          "notes": "二级目录02",
+          "authCode": "admin",
+          "children": [{
+            "resUrl": "https://pr.motaobox.com/box/index.php?module=admin&namespace=member&controller=replenishman",
+            "notes": "三级目录03",
+            "authCode": "admin",
+            "children": [],
+            "routerName": "Replenisher",
+            "resType": 3,
+            "name": "补货员列表",
+            "fatherId": "0301",
+            "id": "030101"
+          }],
+          "routerName": "",
+          "resType": 3,
+          "name": "补货员管理",
+          "fatherId": "03",
+          "id": "0301"
+        },
+        {
+          "resUrl": "https://pr.motaobox.com/index",
+          "notes": "二级目录02",
+          "authCode": "admin",
+          "children": [{
+            "resUrl": "https://pr.motaobox.com/box/index.php?module=admin&namespace=member&controller=customer",
+            "notes": "三级目录03",
+            "authCode": "admin",
+            "children": [],
+            "routerName": "Member",
+            "resType": 3,
+            "name": "会员列表",
+            "fatherId": "0302",
+            "id": "030201"
+          }],
+          "routerName": "",
+          "resType": 3,
+          "name": "会员管理",
+          "fatherId": "03",
+          "id": "0302"
+        }
+      ],
+      "routerName": "personnel.html",
+      "resType": 3,
+      "name": "人员管理",
+      "fatherId": null,
+      "auth_employee_id": "D45996FCFB6F4795B89947594E1942B1",
+      "id": "03"
+    },
+    {
+      "resUrl": "https://pr.motaobox.com/box/index.php?module=admin&namespace=merchant&controller=box",
+      "notes": "一级目录01",
+      "authCode": "admin",
+      "children": [{
+          "resUrl": "https://pr.motaobox.com/index",
+          "notes": "二级目录02",
+          "authCode": "admin",
+          "children": [{
+              "resUrl": "https://pr.motaobox.com/box/index.php?module=admin&namespace=merchant&controller=box",
+              "notes": "三级目录03",
+              "authCode": "admin",
+              "children": [],
+              "routerName": "BoxManagement",
+              "resType": 3,
+              "name": "盒子管理",
+              "fatherId": "0401",
+              "id": "040101"
+            },
+            {
+              "resUrl": "https://pr.motaobox.com/box/index.php?module=admin&namespace=merchant&controller=merchant",
+              "notes": "三级目录03",
+              "authCode": "admin",
+              "children": [],
+              "routerName": "MerchantManagement",
+              "resType": 3,
+              "name": "商户管理",
+              "fatherId": "0401",
+              "id": "040102"
+            },
+            {
+              "resUrl": "https://pr.motaobox.com/box/index.php?module=admin&controller=iframe&id=040103",
+              "notes": "三级目录03",
+              "authCode": "admin",
+              "children": [],
+              "routerName": "ChannelManagement",
+              "resType": 3,
+              "name": "渠道商管理",
+              "fatherId": "0401",
+              "id": "040103"
+            },
+            {
+              "resUrl": "https://pr.motaobox.com/box/index.php?module=admin&controller=iframe&id=040104",
+              "notes": "三级目录03",
+              "authCode": "admin",
+              "children": [],
+              "routerName": "RegionalManagement",
+              "resType": 3,
+              "name": "地区管理",
+              "fatherId": "0401",
+              "id": "040104"
+            },
+            {
+              "resUrl": "https://pr.motaobox.com/box/index.php?module=admin&controller=iframe&id=040105",
+              "notes": "三级目录03",
+              "authCode": "admin",
+              "children": [],
+              "routerName": "OperatorManagement",
+              "resType": 3,
+              "name": "运营商管理",
+              "fatherId": "0401",
+              "id": "040105"
+            }
+          ],
+          "routerName": "",
+          "resType": 3,
+          "name": "基本资料",
+          "fatherId": "04",
+          "id": "0401"
+        },
+        {
+          "resUrl": "https://pr.motaobox.com/index",
+          "notes": "二级目录02",
+          "authCode": "admin",
+          "children": [{
+              "resUrl": "https://pr.motaobox.com/box/index.php?module=admin&namespace=merchant&controller=realtime",
+              "notes": "三级目录03",
+              "authCode": "admin",
+              "children": [],
+              "routerName": "RealTimeStatus",
+              "resType": 3,
+              "name": "实时状态",
+              "fatherId": "0402",
+              "id": "040201"
+            },
+            {
+              "resUrl": "https://pr.motaobox.com/box/index.php?module=admin&controller=iframe&id=040205",
+              "notes": "三级目录03",
+              "authCode": "admin",
+              "children": [],
+              "routerName": "Monitor",
+              "resType": 3,
+              "name": "防盗监控",
+              "fatherId": "0402",
+              "id": "040202"
+            },
+            {
+              "resUrl": "https://pr.motaobox.com/box/index.php?module=admin&namespace=merchant&controller=event",
+              "notes": "三级目录03",
+              "authCode": "admin",
+              "children": [],
+              "routerName": "BoxEvent",
+              "resType": 3,
+              "name": "盒子事件",
+              "fatherId": "0402",
+              "id": "040203"
+            }
+          ],
+          "routerName": "",
+          "resType": 3,
+          "name": "盒子监控",
+          "fatherId": "04",
+          "id": "0402"
+        },
+        {
+          "resUrl": "",
+          "notes": "二级目录",
+          "authCode": "ioioi",
+          "children": [{
+              "resUrl": "",
+              "notes": "三级目录03",
+              "authCode": "admin",
+              "children": [],
+              "routerName": "RoleManagement",
+              "resType": 3,
+              "name": "角色管理",
+              "fatherId": "0403",
+              "id": "040301"
+            },
+            {
+              "resUrl": "",
+              "notes": "三级目录03",
+              "authCode": "admin",
+              "children": [],
+              "routerName": "DepartmentManagement",
+              "resType": 3,
+              "name": "部门管理",
+              "fatherId": "0403",
+              "id": "040302"
+            },
+            {
+              "resUrl": "",
+              "notes": "三级目录03",
+              "authCode": "admin",
+              "children": [],
+              "routerName": "EmployeeManagement",
+              "resType": 3,
+              "name": "员工管理",
+              "fatherId": "0403",
+              "id": "040303"
+            }
+          ],
+          "routerName": "",
+          "resType": 3,
+          "name": "权限管理",
+          "fatherId": "04",
+          "id": "0403"
+        },
+        {
+          "resUrl": "",
+          "notes": "二级目录",
+          "authCode": "ioioi",
+          "routerName": "",
+          "resType": 3,
+          "name": "日志管理",
+          "fatherId": "04",
+          "id": "0404",
+          "children": [{
+            "resUrl": "",
+            "notes": "三级目录03",
+            "authCode": "admin",
+            "children": [],
+            "routerName": "FunctionLog",
+            "resType": 3,
+            "name": "功能日志",
+            "fatherId": "0404",
+            "id": "040401"
+          }]
+        },
+        {
+          "resUrl": "https://pr.motaobox.com/index",
+          "notes": "二级目录05",
+          "authCode": "admin",
+          "children": [{
+              "resUrl": "",
+              "notes": "三级目录01",
+              "authCode": "admin",
+              "children": [],
+              "routerName": "FirmwareManagement",
+              "resType": 3,
+              "name": "固件管理",
+              "fatherId": "0405",
+              "id": "040501"
+            },
+            {
+              "resUrl": "",
+              "notes": "三级目录02",
+              "authCode": "admin",
+              "children": [],
+              "routerName": "BoxUpgrade",
+              "resType": 3,
+              "name": "盒子升级",
+              "fatherId": "0405",
+              "id": "040502"
+            }
+          ],
+          "routerName": "",
+          "resType": 3,
+          "name": "软件管理",
+          "fatherId": "04",
+          "id": "0405"
+        },
+        {
+          "resUrl": "https://pr.motaobox.com/index",
+          "notes": "二级目录05",
+          "authCode": "admin",
+          "children": [{
+            "resUrl": "",
+            "notes": "三级目录01",
+            "authCode": "admin",
+            "children": [],
+            "routerName": "RecommendedAwards",
+            "resType": 3,
+            "name": "推荐有奖",
+            "fatherId": "0406",
+            "id": "040601"
+          }],
+          "routerName": "",
+          "resType": 3,
+          "name": "活动管理",
+          "fatherId": "04",
+          "id": "0406"
+        },
+        {
+          "children": [
+            {
+              "resUrl": "",
+              "routerName": "MessageSend",
+              "name": "消息发送"
+            }
+          ],
+          "routerName": "",
+          "name": "客服消息"
+        }
+      ],
+      "routerName": "system.html",
+      "resType": 3,
+      "name": "系统管理",
+      "fatherId": null,
+      "auth_employee_id": "D45996FCFB6F4795B89947594E1942B1",
+      "id": "04"
+    }
+  ],
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

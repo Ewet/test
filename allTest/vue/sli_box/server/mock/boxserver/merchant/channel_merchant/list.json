@@ -1,0 +1,29 @@
+{
+    "data": {
+        "pagination": {
+            "cur_page": 1,
+            "page_size": 10,
+            "total_page": 1,
+            "record_count": 1,
+            "pre": 1,
+            "next": 1,
+            "start": 0,
+            "end": 10
+        },
+        "items": [{
+            "account_number": "15016340953",
+            "legal_person": "小明",
+            "address": "中山",
+            "create_time_fromat": "2018-08-13 10:08",
+            "create_time": 1534126112,
+            "mobile": "15016340953",
+            "name": "小明",
+            "merchant_name": "商家01",
+            "goods_type": "红酒",
+            "merchant_id": "327640140785085510"
+        }]
+    },
+    "success": true,
+    "message": "success",
+    "statusCode": 200
+}

@@ -1,0 +1,19 @@
+{
+  "data": {
+      "prize_id": 4,
+      "activity_id": 5,
+      "prize_type": 1,
+      "prize_type_formatted": "奖金",
+      "prize_name": "1.xxxxx",
+      "prize_order": "xxxxx",
+      "coupon_id": 1111,
+      "prize_image": "http://pic.qiantucdn.com/58pic/13/71/35/24k58PICSiB_1024.jpg",
+      "prize_image_id": 1111,
+      "amount": 1111,
+      "amount_formatted": "11.11",
+      "quantity": 21
+  },
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

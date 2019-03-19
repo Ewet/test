@@ -1,0 +1,11 @@
+{
+  "success": true,
+  "message": "success",
+  "statusCode": 200,
+  "data": [
+  {
+    "coupon_id": 66,
+    "name": 585
+  }
+]
+}

@@ -1,0 +1,11 @@
+{
+  "data": {
+      "parent_name": "全部分类",
+      "cate_name": "酒类",
+      "parent_id": "xxx",
+      "gcate_id": "xxx"
+  },
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

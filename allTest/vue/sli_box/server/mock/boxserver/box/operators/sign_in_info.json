@@ -1,0 +1,10 @@
+{
+  "data": {
+    "account": "admin",
+    "password": "123456",
+    "id":"00001"
+  },
+  "success": true,
+  "message": "success",
+  "statusCode": 200
+}

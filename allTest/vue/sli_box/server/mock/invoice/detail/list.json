@@ -1,0 +1,36 @@
+{
+    "data": {
+      "pagination": {
+        "cur_page": 1,
+        "page_size": 10,
+        "total_page": 30,
+        "record_count": 30,
+        "pre": 1,
+        "next": 1,
+        "start": 0,
+        "end": 10
+      },
+      "items": [
+        {
+          "merchant_name": "广东红酒集团公司",
+          "merchant_no": "N001",
+          "box_no": "D002",
+          "created_time": "2018.10.10 00:01:01",
+          "order_sn": "D0022222222",
+          "goods_name": "拉菲珍藏",
+          "goods_number": "1",
+          "goods_amounts": "100",
+          "actual_payment": "100",
+          "invoice_issuing": "张三",
+          "invoice_type": "个人",
+          "invoice_state": "未开票",
+          "invoice_time": "2018.10.15 00:00:00",
+          "invoice_result": "开票成功",
+          "id":"0001"
+        }
+      ]
+    },
+    "success": true,
+    "message": "success",
+    "statusCode": 200
+  }

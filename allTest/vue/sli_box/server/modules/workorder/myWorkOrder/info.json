@@ -1,0 +1,43 @@
+{
+    "data":{
+        "record":{
+            "content":"asdf",    
+            "handler":"指派给ID",
+            "handler_name":"技术员1", 
+            "ticket_no":"Iwzlg0W",  
+            "assigner_name":"客服一", 
+            "update_time":"2019-01-15 02:32:14", 
+            "end_time":"2019-01-15 02:32:14",    
+            "priority":0,
+            "priority_formatted": "一般",  
+            "status":0,
+            "status_formatted":"待分配", 
+            "auth_department_id":"指给默认部门ID",
+            "auth_department_name":"指给默认部门名称"
+        },
+        "files":[
+            {
+                "file_id":"310114665162008039",
+                "filename":"很短很短！.mp3",
+                "fileurl":"../fileurl.mp3"
+            }
+        ],
+        "dept_emp":[
+            {
+                "auth_department_id":"部门ID",
+                "auth_department_name":"客服部",
+                "emps":[ 
+                    {
+                        "admin_id":"1234",         
+                        "auth_department_name":"客服部",    
+                        "work_name":"客服一"       
+                    }
+                ]
+            }
+        ]
+    },
+    "success": true,
+    "message": "success",
+    "statusCode": 200
+    
+}

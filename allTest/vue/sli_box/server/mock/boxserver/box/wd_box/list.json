@@ -1,0 +1,22 @@
+{
+    "data": {
+        "pagination": {
+            "cur_page": 1,
+            "page_size": 10,
+            "total_page": 14,
+            "record_count": 138,
+            "pre": 1,
+            "next": 2,
+            "start": 0,
+            "end": 10
+        },
+        "items": [{
+            "address": "无",
+            "name": "微大",
+            "box_no": "124"
+        }]
+    },
+    "success": true,
+    "message": "success",
+    "statusCode": 200
+}

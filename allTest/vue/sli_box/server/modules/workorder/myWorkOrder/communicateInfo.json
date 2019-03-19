@@ -1,0 +1,103 @@
+{
+    "data": {
+      "record":{
+          "content":"asdf",    
+          "handler":"指派给ID",
+          "handler_name":"技术员1", 
+          "ticket_no":"Iwzlg0W",  
+          "assigner_name":"客服一", 
+          "update_time":"2019-01-15 02:32:14", 
+          "end_time":"2019-01-21 06:03:04",   
+          "priority":0,
+          "priority_formatted": "一般",  
+          "status":0,
+          "status_formatted":"待分配", 
+           "operation_type":[
+                  {
+                      "status":-1,
+                      "status_formatted":"关闭工单"
+                  },
+                  {
+                    "status":0,
+                    "status_formatted":"回复"
+                  },
+                  {
+                    "status":1,
+                    "status_formatted":"分配 "
+                  },
+                  {
+                    "status":2,
+                    "status_formatted":"指派"
+                  },
+                  {
+                    "status":3,
+                    "status_formatted":"处理完成，转给验收人"
+                  },
+                  {
+                    "status":4,
+                    "status_formatted":"验收"
+                  },
+                  {
+                    "status":5,
+                    "status_formatted":"不需处理"
+                  }
+          ],
+          "files":[
+                  {
+                      "file_id":"310114665162008039",
+                      "filename":"很短很短！.mp3",
+                      "fileurl":"../fileurl.mp3"
+                  }
+          ],
+          "is_me":1  
+      },
+       "replies": [  
+          {
+              "assigned_name":"客服一", 
+              "handler_name":"指派", 
+              "assigned_handler_talk":"客服一 将工单指派给 客服二：",
+              "identity":0,
+              "create_time":"2019-01-15 05:41:27", 
+              "files":[
+                  {
+                      "file_id":"310114665162008039",
+                      "filename":"很短很短！.mp3",
+                      "fileurl":"../fileurl.mp3"
+                  }
+              ],
+              "ticket_content":"水电费",  
+              "is_me":0
+          }
+      ],
+      "dept_emp":[
+          {
+              "auth_department_id":"512323232", 
+              "auth_department_name":"客服部", 
+              "emps":[ 
+                  {
+                      "admin_id":"1234",       
+                      "auth_department_name":"客服部",   
+                      "work_name":"客服一"       
+                  }
+              ]
+          }
+      ],
+      "dept_emp_reply":[
+        {
+            "auth_department_id":"4466565656", 
+            "auth_department_name":"技术部", 
+            "emps":[ 
+                {
+                    "admin_id":"5684",       
+                    "auth_department_name":"技术部",   
+                    "work_name":"技术一"       
+                }
+            ]
+        }
+    ]
+    },
+      "success": true,
+      "message": "success",
+      "statusCode": 200
+     
+  }
