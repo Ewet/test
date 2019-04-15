@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>手写promise</title>
+	</head>
+	<body>
+		promise:
+	</body>
+	<script type="text/javascript">
+		function myPromise(constructor) {
+			let seft = this;
+			seft.status = 'pending'; // 定义状态改变前的初始状态
+			seft.value = undefined; // 定义状态为resolved的时候的状态
+			seft.reason = undefined; // 定义状态为rejected的时候的状态
+			function resolve(value) {
+				// 两个==='pending',保证了状态的改变是不可逆的
+				if(seft.status === 'pending') {
+					seft.status = 'resolved';
+					seft.value = value;
+				}
+			}
+			function reject(reason) {
+				// 两个==='pending',保证了状态的改变是不可逆的
+				if (seft.status === 'pending') {
+					seft.status = 'rejected';
+					seft.reason = reason;
+				}
+			}
+			// 捕获构造异常
+			try{
+				constructor(resolve, reject)
+			} catch(e) {
+				reject(e)
+			}
+		}
+		
+		// 同时，需要在myPromise的原型上定义链式调用的then方法：
+		myPromise.prototype.then = function(onFullfilled, onRejected) {
+			let seft = this;
+			switch(seft.status) {
+				case 'resolved':
+					onFullfilled(seft.value);
+					break;
+				case 'rejected': 
+					onRejected(seft.reason);
+					break;
+				default: 
+			}
+		}
+		
+		// test
+		var p = new myPromise((resolve, reject) => {
+			resolve(1)
+		})
+		p.then(e => {
+			console.log(e)
+		})
+		
+	</script>
+</html>
