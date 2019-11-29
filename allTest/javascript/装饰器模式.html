@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<pre>
+			5.1 定义及特征
+
+			装饰器，顾名思义，就是在原来方法的基础上去装饰一些针对特别场景所适用的方法，即添加一些新功能。因此其特征主要有两点：
+
+			为对象添加新功能；
+
+			不改变其原有的结构和功能，即原有功能还继续会用，且场景不会改变。
+		</pre>
+	</body>
+	<script type="text/javascript">
+		
+		class Circle {
+			draw() {
+				console.log('画一个圆形');
+			}
+		}
+
+		class Decorator {
+			constructor(circle) {
+				this.circle = circle;
+			}
+			draw() {
+				this.circle.draw();
+				this.setRedBorder(circle);
+			}
+			setRedBorder(circle) {
+				console.log('画一个红色边框');
+			}
+		}
+
+		let circle = new Circle();
+		let decorator = new Decorator(circle);
+		decorator.draw(); //画一个圆形，画一个红色边框
+		
+		
+		// mixin 示例
+// 		function mixins(...list) {
+// 			return function(target) {
+// 				Object.assign(target.prototype, ...list);
+// 			}
+// 		}
+// 		
+// 		const Foo = {
+// 			foo() {
+// 				alert('foo')
+// 			}
+// 		}
+// 		
+// 		@mixins(Foo); // 安装装饰器插件npm i babel-plugin-transform-decorators-legacy 用法;
+// 		class MyClass{}
+// 		
+// 		let obj = new MyClass();
+// 		obj.foo();
+
+		// 只读属性
+		
+// 		function readonly(target , name , descriptor) {
+// 		  descriptor.writable = false;
+// 		}
+// 
+// 		class Person {
+// 			constructor() {
+// 				this.first = '周';
+// 				this.last = '杰伦';
+// 			}
+// 
+// 			@readonly
+// 			name() {
+// 				return `${this.first}${this.last}`
+// 			}
+// 		}
+// 
+// 		const p = new Person();
+// 		console.log(p.name());  // 打印成功 ，‘周杰伦’
+// 
+// 		// 试图修改name：
+// 		p.name = function() {
+// 			return true;
+// 		}
+
+	</script>
+</html>

@@ -6,28 +6,31 @@
 	</head>
 	<body>
 		<script type="text/javascript">
-			if(window.XMLHttpRequest){
-				xmlhttp=new XMLHttpRequest;
-			}else{
-				xmlhttp=new ActiveXObject("Microsoft.XMLHTTP")
-			}
-			//连接xml文件
-			xmlhttp.open("GET","books.xml",false);
-			xmlhttp.send();
-			xmlDoc=xmlhttp.responseXML;
+			// if(window.XMLHttpRequest){
+			// 	xmlhttp=new XMLHttpRequest;
+			// }else{
+			// 	xmlhttp=new ActiveXObject("Microsoft.XMLHTTP")
+			// }
+			// //连接xml文件
+			// xmlhttp.open("GET","books.xml",false);
+			// xmlhttp.send();
+			// xmlDoc=xmlhttp.responseXML;
 			
-			txt=xmlDoc.getElementsByTagName("title")[1].childNodes[0].nodeValue;
-			lang = xmlDoc.getElementsByTagName("title")[0].getAttribute("lang")
-			document.write(lang+"<br/>")
-			document.write(txt)
+			// txt=xmlDoc.getElementsByTagName("title")[1].childNodes[0].nodeValue;
+			// lang = xmlDoc.getElementsByTagName("title")[0].getAttribute("lang")
+			// document.write(lang+"<br/>")
+			// document.write(txt)
 			
-			newel=xmlDoc.createElement("edition");
-			newelText=xmlDoc.createTextNode("first");
-			newel.appendChild(newelText);
-			x=xmlDoc.getElementsByTagName("book");
-			x[0].appendChild(newel)
-			txts=xmlDoc.getElementsByTagName("title")[0].childNodes[5].nodeValue;
-			document.write(txts)
+			// newel=xmlDoc.createElement("edition");
+			// newelText=xmlDoc.createTextNode("first");
+			// newel.appendChild(newelText);
+			// x=xmlDoc.getElementsByTagName("book");
+			// x[0].appendChild(newel)
+			// txts=xmlDoc.getElementsByTagName("title")[0].childNodes[5].nodeValue;
+			// document.write(txts)
+			fetch("https://academy.valentinog.com/api/link/").then(function(response) {
+			  console.log(response);
+			}); 
 		</script>
 	</body>
 </html>

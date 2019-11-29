@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>js操作html</title>
+	</head>
+	<body>
+		<!-- <div class="box">
+			<p>kdksdks</p>
+			<div class="lis">
+				<span>ksdkksd</span>
+			</div>
+		</div>
+		<script type="text/javascript">
+			var val = document.querySelector('span').parentElement;
+			console.log(val)
+		</script> -->
+		
+		
+		<div id="outer">
+		    I am the outer div
+		    <div id="inner">
+		        I am the inner div
+		    </div>
+		</div>
+		<script type="text/javascript">
+			var outer = document.getElementById('inner');
+			var inner = document.getElementById('outer');
+			
+			function handleClick(event){
+			    console.log(event.target.id);
+			}
+			
+			inner.addEventListener('click', handleClick);
+			outer.addEventListener('click', handleClick);
+		</script>
+	</body>
+</html>

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>build-table</title>
+		<style type="text/css">
+			table,
+			button{
+				display: inline-block;
+				margin-left: 20px;
+			}
+			.bottom{
+				margin-left: 20px;
+				margin-top: 50px;
+			}
+			#time{
+				color: red;
+			}
+			span{
+				margin-left: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="div">
+			
+		</div>
+		<!--<table id=" one" border="1" cellspacing="0" cellpadding="6">
+		</table>
+		<table id="two" border="1" cellspacing="0" cellpadding="6">
+		</table> -->
+		<div class="bottom">
+			<span id="sorce">分数：0</span>
+			<span id="number">对的个数：0</span>
+			<span id="time">倒计时：60 秒</span>
+			<!-- <span id="num">错的序号：0</span> -->
+			<button type="button" onclick="start()">开始</button>
+			<button type="button" onclick="computerSorce()">提交</button>
+			<button type="button" onclick="reset()">再来一次</button>
+		</div>
+		<script type="text/javascript">
+			var mountains = [
+			  { name: "序号", height: '默认值', place: "输入值" },
+			  { name: "1", num: '1658', type: "1" },
+			  { name: "2", num: '1654', type: "2" },
+			  { name: "3", num: '1520', type: "3" },
+			  { name: "4", num: '1592', type: "4" },
+			  { name: "5", num: '1738', type: "5" },
+			  { name: "6", num: '1658', type: "6" },
+			  { name: "7", num: '1654', type: "7" },
+			  { name: "8", num: '1520', type: "8" },
+			  { name: "9", num: '1592', type: "9" },
+			  { name: "10", num: '1738', type: "10" },
+			  { name: "11", num: '1658', type: "11" },
+			  { name: "12", num: '1654', type: "12" },
+			  { name: "13", num: '1520', type: "13" },
+			  { name: "14", num: '1592', type: "14" },
+			  { name: "15", num: '1738', type: "15" },
+			];
+			var twoTains = [
+				{ name: "序号", height: '默认值', place: "输入值" },
+				{ name: "16", num: '1658', type: "16" },
+				{ name: "17", num: '1654', type: "17" },
+				{ name: "18", num: '1520', type: "18" },
+				{ name: "19", num: '1592', type: "19" },
+				{ name: "20", num: '1738', type: "20" },
+				{ name: "21", num: '1658', type: "21" },
+				{ name: "22", num: '1654', type: "22" },
+				{ name: "23", num: '1520', type: "23" },
+				{ name: "24", num: '1592', type: "24" },
+				{ name: "25", num: '1738', type: "25" },
+				{ name: "26", num: '1658', type: "26" },
+				{ name: "27", num: '1654', type: "27" },
+				{ name: "28", num: '1520', type: "28" },
+				{ name: "29", num: '1592', type: "29" },
+				{ name: "30", num: '1738', type: "30" },
+			]
+			var firstArr = [];
+			
+			function generateTableHead(table, data) {
+			  var thead = table.createTHead();
+			  var row = thead.insertRow();
+			  for (var i = 0; i < data.length; i++) {
+			    var th = document.createElement("th");
+			    var text = document.createTextNode(data[i]);
+			    th.appendChild(text);
+			    row.appendChild(th);
+			  }
+			}
+			function index () {
+				var i = 0;
+				return function() {
+					return i + 1 + 't';
+				}
+			}
+			var myIndex = index();
+			function generateTable(data) {
+			  var table = document.createElement('table');
+			  table.setAttribute('id', myIndex());
+			  table.setAttribute('border', "1");
+			  table.setAttribute('cellspacing', "0");
+			  table.setAttribute('cellpadding', "6");
+			  for (var i = 0; i < data.length; i++) {
+			    var row = table.insertRow();
+			    for (var key in data[i]) {
+			      var cell = row.insertCell();
+				  var text;
+				  if(key === 'type'){
+					text  = document.createElement("input");
+					text.setAttribute('type', 'number')
+					text.setAttribute('id', data[i][key])
+					text.onkeydown = jump;
+					text.onblur = pushValue;
+				  } else if(key === 'num'){
+					// 生成一个4-8位的随机数
+					let num;
+					for(var index in [1,2,3,4,5,6]) {
+						if(num){
+							num += (Math.random()*9).toFixed(0);
+						} else {
+							num = (Math.random()*9).toFixed(0);
+						}
+					} 
+					firstArr.push(num)
+					text = document.createTextNode(num);
+				  } else {
+					text = document.createTextNode(data[i][key]);  
+				  }
+			      cell.appendChild(text);
+			    }
+			  }
+			  return table;
+			}
+			// 创建table
+			// var tableOne = document.getElementById("one");
+			var container = document.getElementById('div');
+			var tableOne = generateTable(mountains);
+			var tableTwo= generateTable(twoTains);
+			container.appendChild(tableOne);
+			container.appendChild(tableTwo);
+			let firstTd = document.getElementById('1')
+			firstTd.focus();
+			
+			// var tableTwo = document.getElementById("two");
+			// generateTable(tableTwo, twoTains);
+			// var data = Object.keys(mountains[0]);
+			// generateTableHead(table, data);
+			
+			// 输入框的操作
+			var inputArr = new Array(30);
+			//移动焦点
+			function jump(event){
+				var nextId = Number(event.target.id) + 1;
+				var nextInp = document.getElementById(nextId);
+				var event = event || window.event;
+				//判断是否按了回车，enter的keycode代码是13，想看其他代码请猛戳这里。		 
+				if(event.keyCode == 13){
+					if(nextInp){ // null
+						nextInp.focus();
+					}
+				}
+			}
+			//获取当前输入框的值放进一个数组
+			let errorIdArray = []
+			function pushValue(event){
+				inputArr[event.target.id - 1] = event.target.value
+				console.log(firstArr[event.target.id - 1])
+				console.log(event.target.value)
+				if(firstArr[event.target.id - 1] !== event.target.value){
+					console.log(3333)
+					errorIdArray.push(event.target.id)
+				}
+			}
+			
+			
+			// 提交进行值的判断: 循环输入的值的数组,每一项和之前的数组的每一项相等就把值放进一个新的数组,
+			function computerSorce () {
+				clearInterval(interVal);
+				let endArr= [];
+				// let endIndex= [];
+				for(let i in inputArr) {
+					if(inputArr[i] === firstArr[i]){
+						endArr.push(inputArr[i])
+						// endIndex.push(firstArr.findIndex(x => x === inputArr[i]) + 1)
+					}
+				}
+				for(let val of errorIdArray){
+					console.log(val)
+					let el = document.getElementById(val);
+					el.style.color = 'red';
+				}
+				let sorce = (endArr.length/(firstArr.length) * 100).toFixed(0);
+				document.getElementById('sorce').innerText = '分数：' + sorce;
+				document.getElementById('number').innerText = '对的个数：' + endArr.length;
+				// document.getElementById('num').innerText = '错的序号：' + endIndex.toString() + ';';
+			}
+			
+			// 开始
+			let interVal;
+			function start () {
+				clearInterval(interVal);
+				document.getElementById('time').innerText = '倒计时：' + '60' + ' 秒';
+				let s = 60;
+				interVal = setInterval(function() {
+					if(s > 0) {
+						s--
+					} else {
+						s = 0;
+						alert('测试时间已到')
+						clearInterval(interVal);
+					}
+					document.getElementById('time').innerText = '倒计时：' + s + ' 秒';
+				},1000)
+			}
+			start()
+			// 重置
+			function reset(){
+				location.reload()
+			}
+			
+		</script>
+	</body>
+</html>

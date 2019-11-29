@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<pre>
+			通俗来说，代理模式要突出“代理”的含义，该模式场景需要三类角色，分别为使用者、目标对象和代理者，使用者的目的是直接访问目标对象，但却不能直接访问，而是要先通过代理者。因此该模式非常像明星代理人的场景。其特征为：
+
+			使用者无权访问目标对象；
+
+			中间加代理，通过代理做授权和控制。
+
+
+			代理模式确实很方便，通常如果面临一些很大开销的操作，就可以并采用虚拟代理的方式延迟到需要它的时候再去创建，比如懒加载操作。
+		</pre>
+	</body>
+	<script type="text/javascript">
+
+
+class ReadImg {
+    constructor(fileName) {
+       this.fileName = fileName;
+       this.loadFromDisk();
+    }
+
+    display() {
+        console.log('display...' + this.fileName);
+    }
+
+    loadFromDisk() {
+        console.log('loading...' + this.fileName);
+    }
+}
+
+class ProxyImg {
+    constructor(fileName) {
+       this.readImg = new ReadImg(fileName)
+    }
+
+    display() {
+        this.readImg.display();
+    }
+}
+
+let proxyImg = new ProxyImg('1.png');
+proxyImg.display();
+
+		// es6 proxy
+// let star = {
+//     name: '菜坤',
+//     song: '~鸡你太美~'
+//     age: 40,
+//     phone: 13089898989
+// }
+// 
+// let agent = new Proxy(star , {
+//     get(target , key) {
+//         if(key == 'phone') {
+//             // 返回经济人自己的电话
+//             return 15667096303
+//         }
+//         if(key == 'price') {
+//            return 20000000000
+//         }
+//         return target[key]
+//     },
+//     set(target , key , val) {
+//        if(key === 'customPrice') {
+//           if(val < 100000000) {
+//               throw new Error('价格太低')
+//           }
+//           else {
+//               target[key] = value;
+//               return true
+//           }
+//        }
+//     }
+// })
+// 
+// // agent 对象会根据相应的代理规则，执行相应的操作：
+// agent.phone // 15667096303  
+// agent.price // 20000000000 
+	</script>
+</html>

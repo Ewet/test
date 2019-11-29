@@ -30,24 +30,12 @@
 //			console.log(v)
 //		})
 
-		for(var x in arr3){
-			console.log(x);
-		}
-		for(var x of arr3){
-			console.log(x);
-		}
-		//forEach的缺点也是很明显的,就是不能中断
-		let a = arr3.forEach(v => {
-			console.log(v)
-			return v;
-		})
-		console.log(a)
-		let b = arr3.map(x => {
-			console.log(x);
-			return x
-		})
-		console.log(b)
-		let ret = Object.keys(arr3)
-		console.log(ret);
+// 		let b = arr3.map(x => {
+// 			console.log(x);
+// 			return x
+// 		})
+// 		console.log(b)
+// 		let ret = Object.keys(arr3)
+// 		console.log(ret);
 	</script>
 </html>

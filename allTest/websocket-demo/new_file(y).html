@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Insert title here</title>
+		<script type="text/javascript">
+			function WebSocketTest() {
+				var websocket;
+
+				// 首先判断是否 支持 WebSocket
+				if('WebSocket' in window) {
+					//websocket = new WebSocket("ws://nts.motaobox.com/tomcat/boxserver/webSocketServer/adminrealtimedata/cart?box_id=320922478795361020");
+					websocket = new WebSocket("ws://192.168.1.129:8080/boxserver/webSocketServer/purchase_order/info?order_id=321001377303381008");
+					/*websocket = new WebSocket("ws://localhost:8085/springTest/testHandler?userId=zhaoshouyun");*/
+					/* var ws = new WebSocket("ws://localhost:8080/boxserver/webSocketServer");*/
+				} else if('MozWebSocket' in window) {
+					websocket = new MozWebSocket("ws://192.168.1.129:8080/boxserver/webSocketServer/purchase_order/info?order_id=321001377303381008");
+				} else {
+					websocket = new SockJS("ws://192.168.1.129:8080/boxserver/webSocketServer/purchase_order/info?order_id=321001377303381008");
+				}
+
+				// 打开连接时
+				websocket.onopen = function(evnt) {
+					//websocket.send("316753593239710148");
+                    alert("数据发送中...");
+					console.log("  websocket.onopen  ");
+					alert("与服务器连接成功");
+				};
+
+				// 收到消息时
+				websocket.onmessage = function(evnt) {
+				 	alert("数据已接收...");
+				 	alert(evnt);
+					console.log(evnt.data);
+				};
+
+				websocket.onerror = function(evnt) {
+					alert("连接出错...")
+					console.log("  websocket.onerror  ");
+				};
+
+				websocket.onclose = function(evnt) {
+					alert("连接关闭...")
+					console.log("  websocket.onclose  ");
+				};
+
+			}
+		</script>
+	</head>
+
+	<body>
+		<a href="javascript:WebSocketTest()">websocket建立连接</a>
+	</body>
+
+</html>

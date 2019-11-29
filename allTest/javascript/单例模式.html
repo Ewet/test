@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<pre>
+			3.1 基本特征: 单例模式的实现实质即创建一个可以返回对象实例的引用和一个获取该实例的方法。保证创建对象的引用恒唯一。
+
+			单例模式，顾名思义即保证实例在全局的单一性，概述如下：
+
+			系统中被唯一使用
+
+			一个类只有一个实例（注意只能有一个实例，必须是强相等===）
+			
+		</pre>
+	</body>
+	<script>
+		
+		let Modal = (function(){
+			let instance;
+			return function(name) {
+				if (instance) {
+				   return instance;
+				}
+				this.name = name;
+				return instance = this;
+			}
+		})();
+
+		Modal.prototype.getName = function() {
+			return this.name
+		}
+
+		let question = new Modal('问题框');
+		let answer = new Modal('回答框');
+
+		console.log(question === answer); // true
+		console.log(question.getName());  // '问题框'
+		console.log(answer.getName());  // '问题框'
+				
+	</script>
+</html>

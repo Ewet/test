@@ -1,0 +1,15 @@
+CACHE MANIFEST
+#上面一句必须且需要在文件最顶部
+
+#  version 1.2
+#需要缓存的文件
+CACHE:
+
+text.html
+
+#不需要缓存的文件
+NETWORK:
+
+#无法访问页面
+FALLBACK:
+
