@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>canvas绘制五角星</title>
+</head>
+<body>
+  <canvas id="canvas" ></canvas>
+  <script type="text/javascript">
+    window.onload = function () {
+      var canvas = document.getElementById('canvas')
+      if(canvas.getContext){
+        var context = canvas.getContext('2d')
+        drawStar(context, 50, 100, 100);
+      } else {
+        document.write('浏览器不支持canvas')
+      }
+      function drawStar(context, r, x, y) {
+        context.lineWidth = 5;
+        context.beginPath();
+        var dit = Math.PI * 4 / 5;
+        var sin = Math.sin(0) * r + y;
+        var cos = Math.cos(0) * r + x;
+        context.moveTo(cos, sin);
+        for(var i = 0;i < 5;i++){
+          var tempDit = dit * i;
+          sin = Math.sin(tempDit) * r + y;
+          cos = Math.cos(tempDit) * r + x;
+          context.lineTo(cos, sin);
+        }
+        context.closePath()
+        context.strokeStyle = 'red';
+        context.fillStyle = '#ffc107'
+        context.fill();
+      }
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>递归</title>
+</head>
+<body>
+  content
+  <script>
+    // 迭代的方式求和；
+    function sum(n) {
+      let sum = 0;
+      for(let i = 1;i<=n;i++) {
+        sum += i; 
+      }
+      return sum;
+    }
+    console.log(sum(5));
+    // 递归的方式求和
+    function sum2(n){
+      // if(n === 1) {
+      //   return n;
+      // } else {
+      //   return n + sum2(n-1);
+      // }
+      n === 1 ? n : n + sum2(n-1);
+    }
+    console.log(sum2(100))
+    // 等差数列
+    function sumTo(n) {
+      return n * (n + 1) / 2;
+    }
+
+    alert( sumTo(100) );
+  </script>
+</body>
+</html>
