@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1px</title>
+  <style>
+    .line{
+      height: 10px;
+      position: relative;
+      background: burlywood;
+    }
+    .line::after{
+      content: '';
+      border: 0 solid #999;
+      border-top-width: 1px;
+      position: absolute;
+      left: -50%;
+      right: -50%;
+      bottom: -50%;
+      transform: scale(.5);
+    }
+  </style>
+</head>
+<body>
+  <div class="line"></div>
+</body>
+</html>

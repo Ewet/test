@@ -15,10 +15,28 @@
         border-color: transparent transparent pink transparent;
         /* border-color: aqua; */
     }
+    h5{
+      voice-family: male;
+      richness: 80;
+      cue-before: url("beep.au")
+    }
+
+    .parent::after, .son{
+        display:inline-block;
+        vertical-align:middle;
+    }
+    .parent::after{
+        content:'';
+        height:100%;
+    }
   </style>
 </head>
 <body>
   <div class="content"> 
+  </div>
+  <h5>是的，css语音播报 暂时没有效果</h5>
+  <div class="parent">
+    <span class="son">垂直居中</span>
   </div>
 </body>
 </html>
