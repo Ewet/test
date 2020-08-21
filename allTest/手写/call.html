@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>手写call</title>
+</head>
+<body>
+    <p>call, apply, bind, new, instanceOf, Object.create</p>
+    <script>
+        Function.prototype.call = function(context) {
+            context = context ? Object(context) : window;
+            context.fn = this;
+            let args = []
+            for(let i = 1;i < arguments.length; i++){
+                args.push('arguments['+ i +']')
+            }
+            let res = eval('context.fn('+ args +')')
+            delete context.fn;
+            return res;
+        }
+        Function.prototype.apply = function(context, args) {
+            context = context ? Object(context) : window;
+            context.fn = this;
+            if(!args) {
+                return context.fn();
+            }
+            let res = eval('context.fn('+ args +')')
+            delete context.fn;
+            return res;
+        }
+        Function.prototype.bind = function(context) {
+            let that = this;
+            let bindArgs = Array.prototype.slice.call(arguments, 1)
+            function fn() {};
+            function fBound(paramas) {
+                let args = Array.prototype.slice.call(arguments)
+                return that.apply(this instanceof fBound ? this : context, bindArgs.concat(args));
+            }
+            Fn.prototype = this.prototype;
+            fBound.prototype = new Fn();
+            return fBound;
+        }
+        const myNew = function(){
+            let Constructor = Array.prototype.shift.call(arguments)
+            let obj = {}
+            obj.__proto__ = Constructor.prototype;
+            let res = Constructor.apply(obj, arguments)
+            return res instanceof Object ? res : obj;
+        }
+        const myInstanceof = function(left, right) {
+            right = right.prototype;
+            left = left.__proto__;
+            while(true){
+                if(left === null){
+                    return false;
+                }
+                if(right === left) {
+                    return true;
+                }
+                left = left.__proto__;
+            }
+        }
+        const myCreate = function(obj) {
+            function F() {};
+            F.prototype = obj;
+            return new F()
+        }
+    </script>
+</body>
+</html>
